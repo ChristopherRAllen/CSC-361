@@ -1,8 +1,9 @@
 import socket
 import ssl
 import sys
+from typing import List, Tuple
 
-def parse_url(url: str) -> tuple[str, str, int, str]: # returns protocol, host, port, and path
+def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, port, and path
     if "://" in url:
         protocol, url = url.split("://", 1)
     else: 
@@ -36,7 +37,7 @@ def parse_url(url: str) -> tuple[str, str, int, str]: # returns protocol, host, 
 
     return protocol, host, port, path
 
-def parse_response(response: bytes) -> tuple[int, str, list[str]]: # returns status code, location, and header lines for cookie extraction
+def parse_response(response: bytes) -> Tuple[int, str, list[str]]: # returns status code, location, and header lines for cookie extraction
     header, _, body = response.partition(b"\r\n\r\n") # Split the response into header and body
     # print("_____ HEADER _____")
     # print(header.decode("utf-8"))
@@ -65,7 +66,7 @@ def parse_response(response: bytes) -> tuple[int, str, list[str]]: # returns sta
     return status_code_int, location, header_lines
 
 
-def extract_cookies(header_lines) -> list[tuple[str, str, str]]:  # returns a list of tuples containing the cookie name, expiration, and domain
+def extract_cookies(header_lines) -> List[Tuple[str, str, str]]:  # returns a list of tuples containing the cookie name, expiration, and domain
     cookies = []
     extracted_cookies = []
     for line in header_lines:
@@ -91,9 +92,9 @@ def extract_cookies(header_lines) -> list[tuple[str, str, str]]:  # returns a li
     
     return extracted_cookies
 
-def send_request(protocol: str, host: str, port: int, path: str, cookie_list: list,
-password_protected: list[bool], web_list: list[str], redirect_count: int, h2_support: list[bool]
-) -> tuple[list[bool], list[list[tuple[str, str, str]]], list[bool], list[str]]:
+def send_request(protocol: str, host: str, port: int, path: str, cookie_list: List,
+password_protected: List[bool], web_list: List[str], redirect_count: int, h2_support: List[bool]
+) -> Tuple[List[bool], List[List[Tuple[str, str, str]]], List[bool], List[str]]:
     '''
     for the outputing tuple it gives the following: 
     http2_supported as a list of boolian expressions
@@ -251,7 +252,8 @@ password_protected: list[bool], web_list: list[str], redirect_count: int, h2_sup
    
     return h2_support, cookie_list, password_protected, web_list
     
-def create_output_file(http2_supported: bool, cookies:list[list[tuple[str, str, str]]], password_protected:list[bool], web_list:list[str]) -> None:
+def create_output_file(http2_supported: bool, cookies:List[List[Tuple[str, str, str]]], 
+password_protected:List[bool], web_list:List[str]) -> None:
     with open("output.txt", "w") as file:
         for i in range(len(web_list)):
             if i > 0:
