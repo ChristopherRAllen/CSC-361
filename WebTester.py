@@ -37,7 +37,7 @@ def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, 
 
     return protocol, host, port, path
 
-def parse_response(response: bytes) -> Tuple[int, str, list[str]]: # returns status code, location, and header lines for cookie extraction
+def parse_response(response: bytes) -> Tuple[int, str, List[str]]: # returns status code, location, and header lines for cookie extraction
     header, _, body = response.partition(b"\r\n\r\n") # Split the response into header and body
     # print("_____ HEADER _____")
     # print(header.decode("utf-8"))
