@@ -363,6 +363,7 @@ def main() -> None:
     
     create_output_file(http2_supported, cookies, password_protected, web_list, header_list, body_list)
     
+    print("Successfully ran WebTester\nPlease check the given output file")
     
 if __name__ == "__main__":
     main()
