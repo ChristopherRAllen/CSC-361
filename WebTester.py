@@ -1,7 +1,7 @@
 import socket
 import ssl
 import sys
-from typing import List, Tuple
+from typing import List, Tuple # had to import to use type hints because the linux machines are before python 3.9
 
 def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, port, and path
     if "://" in url:
@@ -17,6 +17,8 @@ def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, 
     
     if ":" in url:
         host, port = url.split(":", 1)
+        if url.lower().startswith("www.") == False:
+            url = 'www.' + url
         if port.isdigit():
             port = int(port)
             if port <= 0 or port > 65535:
@@ -30,6 +32,11 @@ def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, 
                 port = 80
     else:
         host = url
+        if host == "":
+            print("Error: Host is empty. Please provide a valid URL.")
+            sys.exit(1)
+        elif url.lower().startswith("www.") == False:
+            host = 'www.' + host
         if protocol == "https":
             port = 443
         else:
@@ -37,13 +44,17 @@ def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, 
 
     return protocol, host, port, path
 
-def parse_response(response: bytes) -> Tuple[int, str, List[str]]: # returns status code, location, and header lines for cookie extraction
+def parse_response(response: bytes) -> Tuple[int, str, List[str], str, str]: # returns status code, location, and header lines for cookie extraction. Also returns the header and body information
     header, _, body = response.partition(b"\r\n\r\n") # Split the response into header and body
     # print("_____ HEADER _____")
     # print(header.decode("utf-8"))
     # print("_____ BODY _____")
     # print(body.decode("utf-8")[:1000])  # Print only the first 1000 characters of the body
     header = header.decode("utf-8", errors="ignore") # Decode the header and ignore any errors
+
+    header_copy = header
+    body_copy = body.decode("utf-8", errors="ignore")
+
     header_lines = header.split("\r\n") # Split the header into lines
     status_line = header_lines[0] # Get the status line
     status_parts = status_line.split(" ") # Split the status line into parts
@@ -63,7 +74,7 @@ def parse_response(response: bytes) -> Tuple[int, str, List[str]]: # returns sta
             _, location = line.split(sep=":", maxsplit=1) # Extract the location from the header
             break
 
-    return status_code_int, location, header_lines
+    return status_code_int, location, header_lines, header_copy, body_copy
 
 
 def extract_cookies(header_lines) -> List[Tuple[str, str, str]]:  # returns a list of tuples containing the cookie name, expiration, and domain
@@ -75,6 +86,7 @@ def extract_cookies(header_lines) -> List[Tuple[str, str, str]]:  # returns a li
             cookies.append(cookie.strip()) # Strip any whitespace from the cookie and add it to the list
 
     for cookie in cookies:
+        # print (cookie)
         parts = cookie.split(";") # Split the cookie into parts
         cookie_name = parts[0].split("=", 1)[0] # Split the name and value of the cookie
         expiration = ""
@@ -93,14 +105,17 @@ def extract_cookies(header_lines) -> List[Tuple[str, str, str]]:  # returns a li
     return extracted_cookies
 
 def send_request(protocol: str, host: str, port: int, path: str, cookie_list: List,
-password_protected: List[bool], web_list: List[str], redirect_count: int, h2_support: List[bool]
-) -> Tuple[List[bool], List[List[Tuple[str, str, str]]], List[bool], List[str]]:
+password_protected: List[bool], web_list: List[str], redirect_count: int, h2_support: List[bool],
+header_list: List[str], body_list: List[str]
+) -> Tuple[List[bool], List[List[Tuple[str, str, str]]], List[bool], List[str], List[str], List[str]]:
     '''
     for the outputing tuple it gives the following: 
     http2_supported as a list of boolian expressions
     cookies as a nested list of tuples with the cookie name, expiration, and domain  
     password_protected as a list of boolean expressions indicating whether the site is password protected or not
     web_list as a list of strings representing the URLs of the web pages visited
+    Header as a list of strings
+    Body as a list of strings
     '''
 
     AF_INET = socket.AF_INET
@@ -176,8 +191,33 @@ password_protected: List[bool], web_list: List[str], redirect_count: int, h2_sup
         #     print("HTTP/2 is not supported")
             h2_support.append(False)
 
+        conn.close() # closes the connection (if became h2 connection need to close and reopen)
+        AF_INET = socket.AF_INET
+        SOCK_STREAM = socket.SOCK_STREAM
+        s = socket.socket(AF_INET, SOCK_STREAM)
+        context = ssl.create_default_context()
+        context.set_alpn_protocols(["http/1.1"]) # Tell the server to use http1.1
+
         # Send the HTTP/1.1 request
 
+        try:
+            conn = context.wrap_socket(s, server_hostname=host) # Wrap the socket with TLS (Transport Layer Security)
+            conn.connect((host, port)) # Connect to the server
+        except ssl.SSLError:
+            print(f"Error: SSL error while connecting to {host}:{port}. The server may not support SSL/TLS.")
+            sys.exit(1)
+        except socket.gaierror:
+            print(f"Error: Unable to resolve host {host}. Please check the URL and try again.")
+            sys.exit(1)
+        except socket.ConnectionRefusedError:
+            print(f"Error: Connection to {host}:{port} refused. The server may be down or not accepting connections.")
+            sys.exit(1)
+        except socket.TimeoutError:
+            print(f"Error: Connection to {host}:{port} timed out. The server may be down or not responding.")
+            sys.exit(1)
+        except socket.error:
+            print(f"Error: Socket error while connecting to {host}:{port}.")
+            sys.exit(1)
 
 
         request = f"GET {path} HTTP/1.1\r\nHost: {host}\r\nConnection: close\r\n\r\n"
@@ -195,8 +235,11 @@ password_protected: List[bool], web_list: List[str], redirect_count: int, h2_sup
         print(f"Unsupported protocol: {protocol}. Only 'http' and 'https' are supported.")
         sys.exit(1)   
 
-    status_code_int, location, header_lines = parse_response(response) # Parse the response and print the status code and location if applicable
+    status_code_int, location, header_lines, header, body = parse_response(response) # Parse the response and print the status code and location if applicable
     
+    header_list.append(header)
+    body_list.append(body)
+
     cookies = extract_cookies(header_lines) # Extract cookies from the response headers
     # print("_____ COOKIES _____")
     # print(cookies) # Print the extracted cookies
@@ -247,20 +290,44 @@ password_protected: List[bool], web_list: List[str], redirect_count: int, h2_sup
                 sys.exit(1)
 
             #print(protocol, host, port, path)
-            return send_request(protocol, host, port, path, cookie_list, password_protected, web_list, redirect_count + 1, h2_support) # If the status code is 301 or 302, send the request again with the new location
+            return send_request(protocol, host, port, path, cookie_list, password_protected, web_list, redirect_count + 1, h2_support, header_list, body_list) # If the status code is 301 or 302, send the request again with the new location
     
    
-    return h2_support, cookie_list, password_protected, web_list
+    return h2_support, cookie_list, password_protected, web_list, header_list, body_list
     
-def create_output_file(http2_supported: bool, cookies:List[List[Tuple[str, str, str]]], 
-password_protected:List[bool], web_list:List[str]) -> None:
-    with open("output.txt", "w") as file:
+def create_output_file(http2_supported: List[bool], cookies:List[List[Tuple[str, str, str]]], 
+password_protected:List[bool], web_list:List[str], header_list, body_list) -> None:
+    _,starter_webpage,_,_ = parse_url(web_list[0])
+    with open(f'output-{starter_webpage}.txt', "w") as file:
         for i in range(len(web_list)):
+            file.write("---Request begin---\n\n")
+            file.write(f'GET {web_list[i]} HTTP/1.1\n')
+            _, host, _, _ = parse_url(web_list[i])
+            file.write(f'Host: {host}\n')
+            file.write('Connection: Close\n')
+            file.write('\n')
+            file.write('---Request end---\n')
+            file.write('HTTP request sent, awaiting response...\n\n')
+            file.write('\n')
+            
+            file.write(f'----------Header----------\n\n')
+            file.write(f'{header_list[i]}\n')
+            file.write("\n")
+
+            if body_list[i] != '':
+                file.write(f'----------Body----------\n\n')
+                file.write(f'{body_list[i]}\n')
+                file.write("\n")
+            
+            file.write("--------Website Information--------\n\n")
+
             if i > 0:
                 file.write(f'Redirect Website Numer: {i}\n')
             file.write(f'Website: {web_list[i]}\n')
             file.write(f'Website supports http2: {http2_supported[i]} \n')
             file.write(f'Is password protected: {password_protected[i]}\n')
+
+
             for j in range(len(cookies[i])):
                 cookie = cookies[i][j]
                 cookie_name = 'None'
@@ -291,14 +358,10 @@ def main() -> None:
     if protocol not in ["http", "https"]:
         print(f"Unsupported protocol: {protocol}. Only 'http' and 'https' are supported.")
         sys.exit(1)
-    if host == "":
-        print("Error: Host is empty. Please provide a valid URL.")
-        sys.exit(1)
-    
     #print(protocol, host, port, path)
-    http2_supported, cookies, password_protected, web_list = send_request(protocol, host, port, path, [], [], [], 0, [])
+    http2_supported, cookies, password_protected, web_list, header_list, body_list = send_request(protocol, host, port, path, [], [], [], 0, [], [], [])
     
-    create_output_file(http2_supported, cookies, password_protected, web_list)
+    create_output_file(http2_supported, cookies, password_protected, web_list, header_list, body_list)
     
     
 if __name__ == "__main__":
