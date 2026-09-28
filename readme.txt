@@ -10,5 +10,5 @@ To run the program:
 The program should then print saying it was successful and give an output file matching the host name of the provided URL
 If there are ERRORS the program should print what went wrong and close
 
---FOR Grading: 
+--FOR Markers/Person Grading: 
     I have left comments in my code to try and explain what each function does and what some operations do

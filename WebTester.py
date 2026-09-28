@@ -24,6 +24,7 @@ def parse_url(url: str) -> Tuple[str, str, int, str]: # returns protocol, host, 
             if port <= 0 or port > 65535:
                 print(f"Error: Invalid port number {port}. Port must be between 1 and 65535.")
                 sys.exit(1)
+                
         else: 
             print(f"Invalid port number: {port}. Using default port for {protocol}.")
             if protocol == "https":
