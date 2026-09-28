@@ -2,20 +2,20 @@ import socket
 import ssl
 import sys
 
-def parse_url(url: str) -> tuple[str, str, int, str]: # returns protocol, host, port, and path
-    if "://" in url:
-        protocol, url = url.split("://", 1)
+def parse_url(given_url: str) -> tuple[str, str, int, str]: # returns protocol, host, port, and path
+    if "://" in given_url:
+        protocol, given_url = given_url.split("://", 1)
     else: 
         protocol = "http"
     
-    if "/" in url:
-        url, path = url.split("/", 1)
+    if "/" in given_url:
+        given_url, path = given_url.split("/", 1)
         path = "/" + path
     else:
         path = "/"
     
-    if ":" in url:
-        host, port = url.split(":", 1)
+    if ":" in given_url:
+        host, port = given_url.split(":", 1)
         if port.isdigit():
             port = int(port)
             if port <= 0 or port > 65535:
@@ -28,7 +28,7 @@ def parse_url(url: str) -> tuple[str, str, int, str]: # returns protocol, host, 
             else:
                 port = 80
     else:
-        host = url
+        host = given_url
         if protocol == "https":
             port = 443
         else:
