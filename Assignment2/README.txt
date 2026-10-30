@@ -13,6 +13,3 @@ If there are ERRORS the program should print what went wrong and close.
 
 --FOR Markers/Person Grading:
     I have left comments in my code to explain what each function does and what some operations do.
-
-Python Version: 3.8
-No additional libraries are required.
