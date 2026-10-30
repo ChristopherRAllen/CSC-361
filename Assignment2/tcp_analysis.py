@@ -1,3 +1,4 @@
+
 import sys
 import struct
 
@@ -18,7 +19,6 @@ def read_pcap(path):
             raise ValueError('Unsupported capture file format')
 
         endian, divisor = formats[magic]
-
         header = f.read(20)
 
         if len(header) != 20:
@@ -73,7 +73,7 @@ def get_ip_address(data):
 
 
 def parse_tcp(frame):
-    # Extract the TCP information from an Ethernet packet
+    # Extract TCP information from an Ethernet packet
     if len(frame) < 14:
         return None
 
@@ -99,7 +99,6 @@ def parse_tcp(frame):
         return None
 
     version_ihl = frame[ip_start]
-
     version = version_ihl >> 4
     ip_header_length = (version_ihl & 15) * 4
 
@@ -133,7 +132,7 @@ def parse_tcp(frame):
     if ip_end < tcp_start + 20:
         return None
 
-    # Read the IP addresses
+    # Read IP addresses
     source_ip = get_ip_address(
         frame[ip_start + 12:ip_start + 16]
     )
@@ -203,7 +202,6 @@ class Connection:
         self.events = []
 
         self.first_was_syn = first['syn']
-
         self.data_after_fin = False
 
     def add(self, p, t):
@@ -233,17 +231,16 @@ class Connection:
 
         self.events.append((t, direction, p))
 
-    @property
     def complete(self):
+        # Check if the connection has SYN and FIN
         return self.syn_count > 0 and self.fin_count > 0
 
-    @property
     def is_open(self):
         # Open if no FIN or data arrived after the latest FIN
         return self.fin_count == 0 or self.data_after_fin
 
-    @property
     def state(self):
+        # Return the connection status
         status = 'S{}F{}'.format(
             self.syn_count,
             self.fin_count
@@ -254,15 +251,15 @@ class Connection:
 
         return status
 
-    @property
     def start(self):
+        # Return the connection start time
         if self.syn_times:
             return self.syn_times[0]
 
         return self.first_time
 
-    @property
     def end(self):
+        # Return the connection end time
         if self.fin_times:
             return self.fin_times[-1]
 
@@ -293,7 +290,7 @@ class Connection:
 
 
 def stats(values):
-    # Calculate minimum, average and maximum
+    # Calculate minimum, mean and maximum
     if not values:
         return None
 
@@ -349,15 +346,15 @@ def report(conns):
         print('Destination Address:', c.dst[0])
         print('Source Port:', c.src[1])
         print('Destination Port:', c.dst[1])
-        print('Status:', c.state)
+        print('Status:', c.state())
 
-        if c.complete:
-            print('Start time: {:.6f} seconds'.format(c.start))
-            print('End Time: {:.6f} seconds'.format(c.end))
+        if c.complete():
+            print('Start time: {:.6f} seconds'.format(c.start()))
+            print('End Time: {:.6f} seconds'.format(c.end()))
 
             print(
                 'Duration: {:.6f} seconds'.format(
-                    c.end - c.start
+                    c.end() - c.start()
                 )
             )
 
@@ -394,7 +391,7 @@ def report(conns):
         print('END')
         print('+' * 32)
 
-    complete = [c for c in conns if c.complete]
+    complete = [c for c in conns if c.complete()]
 
     print('\nC) General\n')
 
@@ -411,7 +408,7 @@ def report(conns):
     print(
         'Number of TCP connections that were still open '
         'when the trace capture ended:',
-        sum(c.is_open for c in conns)
+        sum(c.is_open() for c in conns)
     )
 
     print(
@@ -445,7 +442,7 @@ def report(conns):
 
     print_three(
         'time duration',
-        [c.end - c.start for c in complete],
+        [c.end() - c.start() for c in complete],
         ' seconds'
     )
 
@@ -478,13 +475,13 @@ def report(conns):
 
 
 def main():
-    # Get the capture filename from the command line
+    # Get the capture filename from sys.argv[1]
     if len(sys.argv) != 2:
         print(
             'Usage: python tcp_analysis.py <capture_file>',
             file=sys.stderr
         )
-        return
+        sys.exit(1)
 
     filename = sys.argv[1]
 
@@ -511,6 +508,7 @@ def main():
 
     except (OSError, ValueError) as error:
         print('Error:', error, file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == '__main__':
