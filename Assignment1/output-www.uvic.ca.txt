@@ -1,0 +1,1036 @@
+---Request begin---
+
+GET http://www.uvic.ca/ HTTP/1.1
+Host: www.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.uvic.ca/
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+--------Website Information--------
+
+Website: http://www.uvic.ca/
+Website supports http2: False 
+Is password protected: False
+
+---Request begin---
+
+GET https://www.uvic.ca/ HTTP/1.1
+Host: www.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.1 200 OK
+Date: Tue, 29 Sep 2026 19:16:33 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=mtc9sgf15fdm7g9cduq79as2u5; path=/; secure; HttpOnly; SameSite=Lax
+Set-Cookie: uvic_bar=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.uvic.ca; secure; HttpOnly
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept-Encoding,User-Agent
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+Connection: close
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: www_def=!pKxvWxoBu7v7tfk5m1fwS7ujMeDydh8TZxMSfFrJyk6noPPj3aoPYNJruOOLETdNuzmcs5KGOMH/VZo=; path=/; Httponly; Secure
+Strict-Transport-Security: max-age=16070400
+Set-Cookie: TS018b3cbd=0183e075345ed1a4554ec0037b444256c7b8009cc96967badad722c0fb2809c6fa9f2f27cce643e534fe598628f7c52c78fa6f8084; Path=/; Secure; HttpOnly
+Set-Cookie: TS0165a077=0183e075345ed1a4554ec0037b444256c7b8009cc96967badad722c0fb2809c6fa9f2f27cce643e534fe598628f7c52c78fa6f8084; path=/; domain=.uvic.ca; HttpOnly; Secure
+
+----------Body----------
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+	    
+
+ 
+
+
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+		<title>Home - University of Victoria</title>
+		                     <meta content="1790619478760" name="Last-Modified"/>
+        <meta content="1545257999056382" property="fb:app_id"/>
+        <meta content="website" property="og:type"/>
+        <meta content="@uvic" name="twitter:site"/>
+        <meta content="UVic.ca" property="og:site_name"/>
+        <meta content="Home - University of Victoria - University of Victoria" name="twitter:title"/>
+        <meta content="Home - University of Victoria - University of Victoria" property="og:title"/>
+        <meta content="Inspired by and honouring place, we are a community-minded, globally engaged university where we transform ideas into meaningful impact." name="description" property="og:description"/>
+        <meta content="https://www.uvic.ca/_assets/images/landing-heros/2709241147_3600x2025.webp" name="twitter:image"/>
+        <meta content="https://www.uvic.ca/_assets/images/landing-heros/2709241147_3600x2025.webp" property="og:image"/>
+        <meta content="https://www.uvic.ca/index.php" property="og:url"/>
+        <link href="https://www.uvic.ca/index.php" rel="canonical"/>
+		<meta content="03c01edc8e68c44a6221a2dff7e30109" name="id"/>
+		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+<link href="/assets/core-4-1/img/favicon-32.png" rel="icon"/>
+<!-- Stylesheet -->
+        
+        
+    <link href="/assets/core-4-1/css/core.1781900481.css" rel="stylesheet"/>    
+    
+            
+        
+    <link href="/assets/core-4-1/css/animation/aos.1748380475.css" rel="stylesheet"/>    
+    
+    
+            
+        
+    <link href="/_assets/css/site-styles.1790704254.css" rel="stylesheet"/>    
+    
+                                    
+            
+                                                        
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+                            
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KPZ6L3G');</script>
+    
+    
+
+
+
+<!-- site: UVic Central - last modified: September 28 2026 11:18:21. -->
+
+		<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@graph": [
+                {
+        "@type": "CollegeOrUniversity",
+        "@id": "https://www.uvic.ca/index.php#organization",
+        "name": "University of Victoria",
+        "url": "https://www.uvic.ca/index.php",
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "https://www.uvic.ca/index.php#logo",
+            "url": "https://www.uvic.ca/assets/core-4-0/img/uvic-wordmark-colour.svg",
+            "width": 300,
+            "height": 92
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3800 Finnerty Road",
+            "addressLocality": "Victoria",
+            "addressRegion": "BC",
+            "postalCode": "V8P 5C2",
+            "addressCountry": "CA"
+        },
+        "sameAs": [
+            "https://en.wikipedia.org/wiki/University_of_Victoria",
+            "https://www.linkedin.com/school/university-of-victoria/",
+            "https://www.facebook.com/universityofvictoria",
+            "https://www.instagram.com/universityofvictoria",
+            "https://bsky.app/profile/uvic.ca",
+            "https://www.tiktok.com/@universityofvictoria"
+        ],
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 48.463138,
+            "longitude": -123.3147566
+        }
+    },
+    {
+        "@type": "WebSite",
+        "@id": "https://www.uvic.ca/index.php#website",
+        "url": "https://www.uvic.ca/index.php",
+        "name": "University of Victoria",
+        "alternateName": "UVic",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.uvic.ca/search/index.php?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "publisher": { "@id": "https://www.uvic.ca/index.php#organization" }
+    },
+                                                                                                                            {
+            "@type": "WebPage",
+            "@id": "https://www.uvic.ca/index.php#webpage",
+            "url": "https://www.uvic.ca/index.php",
+            "name": "Making an impact",
+            "description": "Inspired by and honouring place, we are a community-minded, globally engaged university where we transform ideas into meaningful impact.",
+            "isPartOf": { "@id": "https://www.uvic.ca/index.php#website" },
+            "inLanguage": "en-CA",
+            "dateModified": "2026-09-28"
+        }
+    ]
+    }
+</script>
+
+	</head>
+	<body class="uv-landing">
+		<header id="uv-header">
+	                                        
+            
+                                                        
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+                        
+
+<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KPZ6L3G" style="display:none;visibility:hidden" title="Google Tag Manager" width="0"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+    		
+
+  <div>
+<section aria-describedby="cookies-description" aria-label="Cookie Notice" class="uv-banner collapse" id="cookies-banner">
+    <div class="container">
+	    <p id="cookies-description">This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember your browser. We use this information to improve and customize your browsing experience, for analytics and metrics about our visitors both on this website and other media, and for marketing purposes. By using this website, you accept and agree to be bound by UVic’s <a href="/info/terms-of-use/index.php">Terms of Use</a> for <a class="icoa" href="/info/terms-of-use/web-and-social-media-privacy/index.php">web and social media privacy</a>.  If you do not agree to the above, you can configure your browser’s setting to “do not track.”</p>
+<div class="btn-row"><button aria-controls="cookies-banner" aria-expanded="false" aria-label="Close cookie banner" class="btn btn-outline-primary" data-bs-target="#cookies-banner" data-bs-toggle="collapse" id="cookies-btn" type="button">Close</button></div>
+	</div>
+</section>
+
+</div>
+
+		    <a class="sr-only sr-only-focusable visually-hidden-focusable" href="#uv-main">Skip to main content</a>
+			
+
+
+  <div>
+
+<div class="srch collapse" id="searchMain">
+    <div class="container">
+        <div class="row srch__row">
+                                                                                                                                                
+                
+                                
+                <form class="srch__form col-12 col-lg" action="/search/index.php" method="get">
+                    <div class="form-group">                
+                        <label class="srch__lbl" for="searchUVic">Search</label>
+                        <input type="search" id="searchUVic" name="q" class="form-control srch__field js-autocomplete" placeholder="What are you looking for?" data-source="//www.uvic.ca/search/a-z-list/a-z-data.json" />
+                        <label for="searchp" class="d-none">Start page</label>
+                        <input type="hidden" id="searchp" name="p" value="1">
+                        <button type="submit" class="btn btn-light srch__btn"><i class="fa-solid fa-search"></i> <span class="sr-only">Search</span></button>
+                    </div>            
+                </form>
+                
+            
+            <div class="srch__lnks col col-lg-auto">
+                                    <a aria-label="People quicklink" class="srch__lnk" href="https://directory.uvic.ca/people">People</a>
+                                                        <a aria-label="Departments quicklink" class="srch__lnk" href="https://directory.uvic.ca/depts/">Departments</a>
+                                                        <a aria-label="Maps quicklink" class="srch__lnk" href="/search/maps/index.php">Maps</a>
+                                                        <a aria-label="Buildings quicklink" class="srch__lnk" href="/search/buildings/index.php">Buildings</a>
+                                                        <a aria-label="Rooms quicklink" class="srch__lnk" href="/search/rooms/index.php">Rooms</a>
+                                                        <a aria-label="A-Z quicklink" class="srch__lnk" href="/search/a-z-list/index.php">A-Z</a>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+  
+<div class="glbl">
+
+
+    <div class="container">
+        <div class="glbl__row row justify-content-between">
+            <div class="col-auto">
+                <a class="glbl__home d-flex align-items-center" href="/index.php">
+                    <img alt="University of Victoria" class="glbl__logo" src="https://www.uvic.ca/assets/core-4-0/img/uvic-wordmark-colour.svg"/>
+                    <span class="glbl__name">University<br/>of Victoria</span>
+                </a>                
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <div class="glbl__lnks">
+                                            <a aria-label="Apply quicklink" class="glbl__lnk" href="/admissions/uvic-admissions/index.php">Apply</a>
+                                                                    <a aria-label="Library quicklink" class="glbl__lnk" href="https://www.uvic.ca/library/">Library</a>
+                                                            </div>
+                <a aria-controls="searchMain" aria-expanded="false" aria-label="Search button" class="btn btn-sm btn-outline-primary glbl__btn icoa icoa--up" data-bs-target="#searchMain" data-bs-toggle="collapse" data-target="#searchMain" data-toggle="collapse" href="/search/index.php" id="search-btn" role="button"><i class="fa-solid fa-search"></i> <span class="sr-only">Search</span></a>
+                 
+                <a href="/cas/login?service=https%3A%2F%2Fwww.uvic.ca%2Ftools%2Findex.php" aria-label="Sign in to UVic button" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--unauth"><i class="fa-solid fa-key"></i> Sign in</a>                                  
+                <a aria-label="Go to UVic online tools" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--auth" href="/tools/index.php"><i class="fa-solid fa-wrench"></i> <span class="glbl__btn__txt">Online tools</span></a>
+                 
+                <a href="/cas/logout?url=https%3A%2F%2Fwww.uvic.ca%2Findex.php" aria-label="Sign out of UVic button" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--auth"><i class="fa-solid fa-times"></i> <span class="glbl__btn__txt">Sign out</span></a>                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+			<!-- header -->
+    <div class="uv-hdr">
+    	<div class="uv-hdr__container container">
+    	        		    <button aria-controls="uvic-nav uvic-nav-audience" aria-expanded="false" class="btn uv-nav__tgl btn--ico" data-bs-target=".navbar-collapse" data-bs-toggle="collapse"><i class="fa-solid fa-bars"></i> <span class="visually-hidden">Show menu</span></button>
+    	        	                    		<div class="uv-hdr__name"><a aria-label="University of Victoria home link" href="index.php">University of Victoria</a></div>
+                	</div>
+    </div>
+
+			                        <!-- Navigation -->
+<nav aria-label="primary navigation" class="navbar navbar-expand-lg uv-nav uv-nav--topic uv-nav--topic--landing" id="uvic-nav">
+    <div class="container uv-nav__container">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Admissions menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Admissions</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Undergraduate studies page" class="dropdown-item icoa icoa--out" href="/undergraduate/index.php">Undergraduate studies</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Graduate studies page" class="dropdown-item icoa icoa--out" href="/graduate/index.php">Graduate studies</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Law school page" class="dropdown-item icoa icoa--out" href="/law/index.php">Law school</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Continuing studies page" class="dropdown-item" href="admissions/continuing-studies/index.php">Continuing studies</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Professional development page" class="dropdown-item" href="admissions/professional-development/index.php">Professional development</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                                                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Academics menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Academics</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Faculties, divisions &amp; services page" class="dropdown-item" href="academics/faculties-schools-and-services/index.php">Faculties, divisions &amp; services</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Academic calendars page" class="dropdown-item icoa icoa--out" href="/calendar/">Academic calendars</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Research &amp; innovation menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Research &amp; innovation</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Research at UVic page" class="dropdown-item" href="research-innovation/research-at-uvic/index.php">Research at UVic</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Our researchers page" class="dropdown-item" href="research-innovation/our-researchers/index.php">Our researchers</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Find a UVic expert page" class="dropdown-item" href="research-innovation/our-researchers/find-a-uvic-expert/index.php">Find a UVic expert</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Research centres &amp; facilities page" class="dropdown-item" href="research-innovation/research-centres/index.php">Research centres &amp; facilities</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Innovation &amp; partnerships page" class="dropdown-item" href="research-innovation/research-partnerships/index.php">Innovation &amp; partnerships</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Post-doctoral fellows page" class="dropdown-item" href="research-innovation/postdoctoral-fellows/index.php">Post-doctoral fellows</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Student opportunities page" class="dropdown-item" href="research-innovation/student-research-opportunities/index.php">Student opportunities</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Strategic initiatives page" class="dropdown-item" href="research-innovation/strategic-initiatives/index.php">Strategic initiatives</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Office of the VPRI page" class="dropdown-item" href="research-innovation/office-vpri/index.php">Office of the VPRI</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Research services page" class="dropdown-item icoa icoa--out" href="https://www.uvic.ca/research-services/index.php">Research services</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Campus menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Campus</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Tours &amp; visits page" class="dropdown-item" href="campus/tours-and-visits/index.php">Tours &amp; visits</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Parking &amp; transportation page" class="dropdown-item icoa icoa--out" href="/security/parking/index.php">Parking &amp; transportation</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Campus security &amp; safety page" class="dropdown-item icoa icoa--out" href="/security/index.php">Campus security &amp; safety</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Housing page" class="dropdown-item icoa icoa--out" href="/residence/index.php">Housing</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Food &amp; drink page" class="dropdown-item" href="campus/food-and-drink/index.php">Food &amp; drink</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Indigenous building names page" class="dropdown-item" href="campus/indigenous-building-names/index.php">Indigenous building names</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Arts &amp; culture page" class="dropdown-item" href="campus/arts-and-culture/index.php">Arts &amp; culture</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Athletics &amp; recreation page" class="dropdown-item" href="campus/athletics-and-recreation/index.php">Athletics &amp; recreation</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Events calendar page" class="dropdown-item icoa icoa--out" href="https://events.uvic.ca/">Events calendar</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Bookstore page" class="dropdown-item icoa icoa--out" href="https://www.uvicbookstore.ca/">Bookstore</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Sustainability page" class="dropdown-item" href="campus/sustainability-on-campus/index.php">Sustainability</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open About UVic menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">About UVic</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to About the university page" class="dropdown-item" href="about-uvic/about-the-university/index.php">About the university</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Facts &amp; figures page" class="dropdown-item" href="about-uvic/facts-figures/index.php">Facts &amp; figures</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to University plans page" class="dropdown-item" href="about-uvic/university-plans/index.php">University plans</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Governance &amp; administration page" class="dropdown-item" href="about-uvic/governance-and-administration/index.php">Governance &amp; administration</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to UVic News page" class="dropdown-item icoa icoa--out" href="https://www.uvic.ca/news/">UVic News</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Contact us page" class="dropdown-item" href="about-uvic/contact-us/index.php">Contact us</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                        <li class="nav-item">
+                            <a class="nav-link uv-nav__item icoa icoa--out" href="https://www.uvic.ca/givingtouvic/index.php">Support UVic </a>
+                        </li>
+                                                                    </ul>
+        </div>
+    </div>
+</nav>
+
+			            <!-- Navigation -->
+<nav aria-label="audience navigation" class="navbar navbar-expand-lg uv-nav uv-nav--audience uv-nav--audience--overlay" id="uvic-nav-audience">
+    <div class="container uv-nav__container">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+	            <li class="nav-item dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-expanded="false" aria-haspopup="true" aria-label="Open Info for menu" class="nav-link uv-nav__item dropdown-toggle d-lg-none icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button"><i class="fa-solid fa-user"></i> Info for...</a>
+                    <div class="dropdown-menu uv-nav__dropdown uv-nav--audience__dropdown">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="info-for-label d-none d-lg-block"> Info for... </span>
+        	                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Students page" class="dropdown-item icoa icoa--out" href="/students/index.php">Students</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Faculty &amp; staff page" class="dropdown-item icoa icoa--out" href="/faculty-staff/index.php">Faculty &amp; staff</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Alumni page" class="dropdown-item icoa icoa--out" href="/alumni/index.php">Alumni</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Community page" class="dropdown-item icoa icoa--out" href="/community-engagement/index.php">Community</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Indigenous page" class="dropdown-item" href="info-for/indigenous/index.php">Indigenous</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to International page" class="dropdown-item" href="info-for/international/index.php">International</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to 2SLGBTQIA+ page" class="dropdown-item" href="info-for/lgbtq/index.php">2SLGBTQIA+</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Business &amp; industry page" class="dropdown-item" href="info-for/business-and-industry/index.php">Business &amp; industry</a>
+                                                                                                                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+		</header>
+		
+		<main class="uv-main uv-main--landing" id="uv-main">
+    		                        <div class="uv-jumbotron bg--swoops">
+                                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-380x213.webp, _assets/images/landing-heros/2709241147_3600x2025-768x432.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 576px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-576x324.webp, _assets/images/landing-heros/2709241147_3600x2025-1200x675.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 768px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-768x432.webp, _assets/images/landing-heros/2709241147_3600x2025-1536x864.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 992px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-992x558.webp, _assets/images/landing-heros/2709241147_3600x2025-1984x1116.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1200px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-1200x675.webp, _assets/images/landing-heros/2709241147_3600x2025-2400x1350.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1450px)" srcset="_assets/images/landing-heros/2709241147_3600x2025-1536x864.webp, _assets/images/landing-heros/2709241147_3600x2025-2900x1631.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/landing-heros/2709241147_3600x2025-1800x1012.webp, _assets/images/landing-heros/2709241147_3600x2025.webp 2x"/>
+                <img alt="The National Centre for Truth and Reconciliation Survivors’ Flag is seen flying under a sunny sky. The flag is predominantly orange with white artwork depicting feathers, children. " class="uv-jumbotron__img" height="2025" src="_assets/images/landing-heros/2709241147_3600x2025-1800x1012.webp" width="3600"/>
+                                    </picture>
+                
+        
+                                                <div class="container foreground">
+            <div class="row uv-jumbotron__row uv-jumbotron__row--left">
+                <div class="uv-jumbotron__overlay col-6 col-md-4">
+                                            <p class="h3 uv-jumbotron__title">Orange Shirt Day</p>
+                                                                <p class="uv-jumbotron__text">Grounded in truth and committed to action</p>
+                                                                <a class="btn btn-light uv-jumbotron__btn stretched-link" href="https://www.uvic.ca/event/orange-shirt-day/index.php">Join us September 29</a>
+                                                        </div>
+            </div>
+        </div>
+                </div>
+
+            <div class="container">
+                <div class="row uv-main__row">
+                    <div class="uv-content">
+						
+    		            
+
+
+            
+
+
+
+
+ 
+
+
+
+        
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+                                                                                                                                                         <div class="row uv-sect bg--linear-bottom gtm--priorities" id="firstSection">
+            <div class="col-12">
+                                    <h1 id="ipn-making-an-impact">Making an impact</h1>
+                                                                                                                                                                                                                                <div class="row row-cols g-4">
+                                                        <div class="col">
+                <div class="card card--dashboard card--dashboard__top bg--blue text--white h-100 ">
+                                                                            <div class="card-head">
+                        <picture>
+                <img alt="Adrian Marchetti kneeling by the ocean, holding up a flask full of ocean water." class="card-img" src="_assets/images/cards/cards/marchetti_1064x599.webp"/>
+            </picture>
+        </div>
+                                                                        <div class="card-body">
+                                                                                                                                <div class="h3 card-title">Phytoplankton and climate change</div>
+                                                                                                                        <div class="card-text">
+                                                                                                                                                                                                                                                                             Oceanographer <a class="icoa icoa--out" href="https://news.uvic.ca/2026/top-oceanographer-brings-phytoplankton-and-climate-change-research-to-uvic/">Adrian Marchetti brings&#160;phytoplankton expertise to UVic</a>&#160;as the BC Leadership Chair in Marine Ecosystems and Global Change.
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                                                                    <div class="col">
+                <div class="card card--dashboard card--dashboard__top bg--dark-blue text--white h-100 ">
+                                                                            <div class="card-head">
+                        <picture>
+                <img alt="Two students looking at a laptop while sitting on the grass under a tree." class="card-img" src="_assets/images/cards/cards/newstudentessentials2026-1064x599.webp"/>
+            </picture>
+        </div>
+                                                                        <div class="card-body">
+                                                                                                                                <div class="h3 card-title">Are you a new UVic student?</div>
+                                                                                                                        <div class="card-text">
+                                                                                                                                                                                                                                                                             <p data-pm-slice="1 1 []">Wondering what to do first? Find all the information you need to start your year off right, including videos, resources and more, with our <a class="icoa icoa--out" href="https://www.uvic.ca/students/info-for/new-students/index.php">UVic New Student Essentials</a>.</p>
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                                                                    <div class="col">
+                <div class="card card--dashboard card--dashboard__top bg--green text--white h-100 ">
+                                                                            <div class="card-head">
+                        <picture>
+                <img alt="Head shot of two men side by side." class="card-img" src="_assets/images/cards/cards/almeida-hazen-story_1064x599.webp"/>
+            </picture>
+        </div>
+                                                                        <div class="card-body">
+                                                                                                                                <div class="h3 card-title">UVic welcomes two outstanding global leaders</div>
+                                                                                                                        <div class="card-text">
+                                                                                                                                                                                                                                                                             World-leading Eddie Goldenberg Research Chairs of Canada join UVic to <a class="icoa icoa--out" href="https://news.uvic.ca/media-release/two-internationally-recognized-scholars-join-uvic-through-federal-research-chair-program/">advance marine sustainability and preventative health research</a><span data-teams="true"><i>.</i></span>
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                        </div>
+                                                                                                            </div>
+        </div>
+                                                                                                                                                  <div class="row uv-sect bg--linear-bottom">
+            <div class="col-12">
+                                                    <h2 id="ipn-look-forward-from-here">Look forward from here</h2>
+                                                                                                                                                    <div class="row row-cols row-cols-md-2 g-4 mb-4">
+                                                                                <div class="col">
+                <div class="card h-100 bg--white">
+                                                                                                                        <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-ug-334x188.webp, _assets/images/cards/cards/octoberrecruitment2025-ug-668x376.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 768px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-ug-532x299.webp, _assets/images/cards/cards/octoberrecruitment2025-ug.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 992px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-ug-334x188.webp, _assets/images/cards/cards/octoberrecruitment2025-ug-668x376.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/cards/octoberrecruitment2025-ug-532x299.webp, _assets/images/cards/cards/octoberrecruitment2025-ug.webp 2x"/>
+                <img alt="A student works with lab equipment in a chemistry lab." class="card-img-top" height="299" loading="lazy" src="_assets/images/cards/cards/octoberrecruitment2025-ug-532x299.webp" width="532"/>
+                                    </picture>
+                                                                        <div class="card-body">
+                                                                                                                                <h3 class="card-title">Undergraduate studies</h3>
+                                                                                                                        <div class="card-text">
+                                                                 <p>UVic offers undergraduate degrees, certificates and diplomas for students straight out of high school or transferring from other post-secondary institutions.</p>
+                                                                                    
+    <div class="btn-row">
+                                                                                                                  <a class="btn btn-primary icoa icoa--out" href="https://www.uvic.ca/undergraduate/index.php">Undergraduate programs</a>
+        
+                                                                                                                          <a class="btn btn-primary icoa icoa--out" href="https://www.uvic.ca/undergraduate/admissions/how-to-apply/index.php">How to apply</a>
+        
+                </div>
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                                                                                            <div class="col">
+                <div class="card h-100 bg--white">
+                                                                                                                        <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-g-334x188.webp, _assets/images/cards/cards/octoberrecruitment2025-g-668x376.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 768px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-g-532x299.webp, _assets/images/cards/cards/octoberrecruitment2025-g.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 992px)" srcset="_assets/images/cards/cards/octoberrecruitment2025-g-334x188.webp, _assets/images/cards/cards/octoberrecruitment2025-g-668x376.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/cards/octoberrecruitment2025-g-532x299.webp, _assets/images/cards/cards/octoberrecruitment2025-g.webp 2x"/>
+                <img alt="A student rappels down a waterfall." class="card-img-top" height="299" loading="lazy" src="_assets/images/cards/cards/octoberrecruitment2025-g-532x299.webp" width="532"/>
+                                    </picture>
+                                                                        <div class="card-body">
+                                                                                                                                <h3 class="card-title">Graduate studies</h3>
+                                                                                                                        <div class="card-text">
+                                                                 <p>UVic is home to over 3,500 students studying in over 160 graduate programs, with a reputation for quality and innovation that&#8217;s respected around the world.</p>
+                                                                                    
+    <div class="btn-row">
+                                                                                                                  <a class="btn btn-primary icoa icoa--out" href="https://www.uvic.ca/graduate/">Graduate programs</a>
+        
+                                                                                                                          <a class="btn btn-primary icoa icoa--out" href="https://www.uvic.ca/graduate/admissions/how-to-apply/index.php">Apply online</a>
+        
+                </div>
+                                                                        </div>
+                                                    </div>
+                                    </div>
+            </div>
+                        </div>
+                                    </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                    <div class="icon-bar row row-cols-8 justify-content-md-center">
+                                                                                             
+                <div class="col">
+                                            <a href="research-innovation/our-researchers/find-a-uvic-expert/index.php"> <i aria-hidden="true" class="fa-regular fa-magnifying-glass" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Find a researcher</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                             
+                <div class="col">
+                                            <a href="https://www.uvic.ca/coop/index.php"><i aria-hidden="true" class="fa-regular fa-user-helmet-safety" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Co-operative education</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                             
+                <div class="col">
+                                            <a href="https://www.uvic.ca/international-experiences/get-involved/uvic-global-community/index.php"><i aria-hidden="true" class="fa-regular fa-globe" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Global community</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                             
+                <div class="col">
+                                            <a href="https://www.uvic.ca/students/index.php"><i aria-hidden="true" class="fa-solid fa-users" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Current students</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                             
+                <div class="col">
+                                            <a href="https://www.uvic.ca/student-wellness/index.php"><i aria-hidden="true" class="fa-solid fa-notes-medical" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Student wellness supports</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                             
+                <div class="col">
+                                            <a href="https://www.uvic.ca/support-uvic/index.php"><i aria-hidden="true" class="fa-regular fa-hand-heart" style="color: #002C5F; "> </i><div class="icon-bar__icon-label">Give to UVic</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                    </div>
+    
+                                                                                                        </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                                                
+    <div class="card card--overlay bg--blue text--white card--overlay--none card--overlay--skinny">
+            <div class="card--overlay__cover">
+                                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/overlay/territory-3600-1450-380x153.jpg, _assets/images/cards/overlay/territory-3600-1450-768x309.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 576px)" srcset="_assets/images/cards/overlay/territory-3600-1450-576x232.jpg, _assets/images/cards/overlay/territory-3600-1450-1200x483.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 768px)" srcset="_assets/images/cards/overlay/territory-3600-1450-768x309.jpg, _assets/images/cards/overlay/territory-3600-1450-1536x618.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 992px)" srcset="_assets/images/cards/overlay/territory-3600-1450-992x399.jpg, _assets/images/cards/overlay/territory-3600-1450-1984x799.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1200px)" srcset="_assets/images/cards/overlay/territory-3600-1450-1200x483.jpg, _assets/images/cards/overlay/territory-3600-1450-2400x966.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1450px)" srcset="_assets/images/cards/overlay/territory-3600-1450-1536x618.jpg, _assets/images/cards/overlay/territory-3600-1450-2900x1168.jpg 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/overlay/territory-3600-1450-1800x725.jpg, _assets/images/cards/overlay/territory-3600-1450.jpg 2x"/>
+                <img alt="close up of cedar branches" class="card--overlay__img" height="1450" loading="lazy" src="_assets/images/cards/overlay/territory-3600-1450-1800x725.jpg" width="3600"/>
+                                    </picture>
+                    </div>
+        
+                        <div class="card-body card--overlay__body">
+                                <h2 class="card-title" id="ipn-territory-acknowledgement">Territory acknowledgement</h2>
+                            <div class="card-text">
+                                             <p>We acknowledge and respect the L&#601;k&#787;&#695;&#601;&#331;&#601;n (Songhees and X&#695;seps&#601;m/Esquimalt) Peoples on whose territory the university stands, and the L&#601;k&#787;&#695;&#601;&#331;&#601;n and W&#817;S&#193;NE&#262; Peoples whose historical relationships with the land continue to this day.</p>
+                </div>
+                        
+    <div class="btn-row">
+                                                                                                          <a class="btn btn-outline-primary" href="info-for/indigenous/index.php">Indigenous initiatives</a>
+        
+                </div>
+                        </div>
+                
+            </div>
+    
+                                                                                                            </div>
+        </div>
+                                                                                                                                                                      <div class="row uv-sect bg--light-blue bg--chevrons gtm--storygrid">
+            <div class="col-12">
+                                                    <h2 id="ipn-news-events">News &amp; events</h2>
+                                                                                                                                                                                        <div class="card-columns feed feed--grid feed--grid--4">
+        <div class="row g-3">
+                                                                        <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--blue text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/gbbw2026-164x109.webp, _assets/images/cards/storygrid/gbbw2026-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/gbbw2026-260x173.webp, _assets/images/cards/storygrid/gbbw2026.webp 2x"/>
+                <img alt="Cyclist riding along the UVic Greenway bike path, surrounded by trees and sunlight." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/gbbw2026-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://www.uvic.ca/sustainability/involved/campaigns/index.php">Join UVic for Go By Bike Week<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            						    <br/><small>Sept. 19 to 26</small>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--dark-blue text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/pics_fundingstory_520x346-164x109.webp, _assets/images/cards/storygrid/pics_fundingstory_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/pics_fundingstory_520x346-260x173.webp, _assets/images/cards/storygrid/pics_fundingstory_520x346.webp 2x"/>
+                <img alt="Grid of eight headshots of researchers profiled in the funding story." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/pics_fundingstory_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/media-release/pics-awards-funds-for-climate-solutions/">Funding for vital climate leadership and innovation work <i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--green text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/emma-claydon_520x346-164x109.webp, _assets/images/cards/storygrid/emma-claydon_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/emma-claydon_520x346-260x173.webp, _assets/images/cards/storygrid/emma-claydon_520x346.webp 2x"/>
+                <img alt="Emma Claydon enjoying Canada's natural beauty in Moraine Lake near Banff." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/emma-claydon_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/2026/leading-uk-behavioural-scientist-brings-climate-expertise-to-uvic/">Behavioural scientist brings climate expertise to UVic<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card ">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/tnophoto_artistsconcept_520x346-164x109.webp, _assets/images/cards/storygrid/tnophoto_artistsconcept_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/tnophoto_artistsconcept_520x346-260x173.webp, _assets/images/cards/storygrid/tnophoto_artistsconcept_520x346.webp 2x"/>
+                <img alt="Artist rendering of Trans-Neptunian Object. " class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/tnophoto_artistsconcept_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/expert-advisory/trans-neptunian-objects-reveal-clues-to-planet-formation/">Trans-Neptunian Objects reveal clues to planet formation<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--dark-blue text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/john-white-profile_520x346-164x109.webp, _assets/images/cards/storygrid/john-white-profile_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/john-white-profile_520x346-260x173.webp, _assets/images/cards/storygrid/john-white-profile_520x346.webp 2x"/>
+                <img alt="John White." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/john-white-profile_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/2026/biomedical-engineering-the-future-of-a-growing-field/">The future of biomedical engineering<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--dark-blue text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/tedx_speakers_520x346-164x109.webp, _assets/images/cards/storygrid/tedx_speakers_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/tedx_speakers_520x346-260x173.webp, _assets/images/cards/storygrid/tedx_speakers_520x346.webp 2x"/>
+                <img alt="A man stands on a stage and presents." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/tedx_speakers_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/2026/tedxvictoria-spotlights-five-speakers-from-uvic/">TEDxVictoria speakers announced: five from UVic <i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card ">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/gvz-42-wuu9pbgidow-unsplash_520x346-164x109.webp, _assets/images/cards/storygrid/gvz-42-wuu9pbgidow-unsplash_520x346-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/gvz-42-wuu9pbgidow-unsplash_520x346-260x173.webp, _assets/images/cards/storygrid/gvz-42-wuu9pbgidow-unsplash_520x346.webp 2x"/>
+                <img alt="Mountains in the arctic." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/gvz-42-wuu9pbgidow-unsplash_520x346-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/2026/global-loss-of-permafrost-accelerating/">Permafrost thaw acceleration tracked in global study<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                                                                                    <div class="col col-item col-6 col-md-4 col-lg-3">
+                        			<div class="card bg--green text--white">
+        				<div class="card-wrapper">
+            				            				                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/storygrid/cam-owens-pic4_520x346-1-164x109.webp, _assets/images/cards/storygrid/cam-owens-pic4_520x346-1-328x218.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/storygrid/cam-owens-pic4_520x346-1-260x173.webp, _assets/images/cards/storygrid/cam-owens-pic4_520x346-1.webp 2x"/>
+                <img alt="A group of people gather together in a grassy park area and stand with or on bicycles." class="card-img-top" height="173" loading="lazy" src="_assets/images/cards/storygrid/cam-owens-pic4_520x346-1-260x173.webp" width="260"/>
+                                    </picture>
+                    				            				<div class="card-body">
+            					<div class="card-text">
+            						<a class="stretched-link" href="https://news.uvic.ca/2026/master-of-community-planning/">Community planners for real-world challenges<i aria-hidden="true" class="fa-regular fa-square-arrow-up-right ms-1"></i></a>
+            						            					</div>
+            				</div>
+            			</div>
+        			</div>
+        		            </div>
+                        </div>
+        	<div class="container mt-3">
+    		<div class="row">
+    			<ul class="feed-grid__more list-inline bg--yellow text--black">
+    				<li class="list-inline-item">More..</li>
+    				<li class="list-inline-item"><a class="icoa icoa--out" href="https://news.uvic.ca/">News</a></li>
+    				<li class="list-inline-item"><a class="icoa icoa--out" href="https://events.uvic.ca/">Events</a></li>
+    				<li class="list-inline-item"><a class="icoa icoa--out" href="/info/social-media/index.php">Social media</a></li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+                                                                                                        </div>
+        </div>
+                                                                                                                                                                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                    <h2 id="ipn-facts-figures">Facts &amp; figures</h2>
+                                                                                                                            <div class="row row-cols g-4">
+                                                      <div class="col">
+            <div class="card h-100 card--info bg--dark-blue text--white" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-linear" data-aos-offset="100">
+                <div class="card-body">
+                    <div class="card-text">
+                                            <span class="card--info__icon"><i class="far fa-globe"></i></span>
+                                            <div class="card--info__body">
+                                                            <span class="card--info__stat">#1</span>
+                                                        <p class="card--info__text">
+                                                                IN CANADA FOR INTERNATIONAL RESEARCH COLLABORATION
+                                                            </p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                              <div class="col">
+            <div class="card h-100 card--info bg--blue text--white" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-linear" data-aos-offset="200">
+                <div class="card-body">
+                    <div class="card-text">
+                                            <span class="card--info__icon"><i class="far fa-handshake"></i></span>
+                                            <div class="card--info__body">
+                                                            <span class="card--info__stat">TOP 2%</span>
+                                                        <p class="card--info__text">
+                                                                FOR CONTRIBUTIONS TO THE SUSTAINABLE DEVELOPMENT GOALS
+                                                            </p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                              <div class="col">
+            <div class="card h-100 card--info bg--yellow text--black" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-linear" data-aos-offset="300">
+                <div class="card-body">
+                    <div class="card-text">
+                                            <span class="card--info__icon"><i class="fa-regular fa-graduation-cap"></i></span>
+                                            <div class="card--info__body">
+                                                            <span class="card--info__stat">83%</span>
+                                                        <p class="card--info__text">
+                                                                OF GRADUATING STUDENTS FIND JOBS
+                                                            </p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                                              <div class="col">
+            <div class="card h-100 card--info bg--green text--white" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-linear" data-aos-offset="400">
+                <div class="card-body">
+                    <div class="card-text">
+                                            <span class="card--info__icon"><i class="far fa-leaf"></i></span>
+                                            <div class="card--info__body">
+                                                            <span class="card--info__stat">TOP 10</span>
+                                                        <p class="card--info__text">
+                                                                SUSTAINABLE INDEX RANKING FOR AIR AND CLIMATE IN NORTH AMERICA
+                                                            </p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                </div>
+                                                                                                                                                                                                                             <p><a href="about-uvic/facts-figures/index.php">More facts &amp; figures</a></p>
+                                                        </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--yellow text--black">
+            <div class="col-12">
+                                                                                                                                                                                                                                         <div>In the midst of a toxic drug crisis in BC, learn how&#160;<u><a class="icoa icoa--out" href="https://www.uvic.ca/campus/overdose-prevention/index.php">UVic is taking steps</a></u>&#160;to make campus safer for everyone.</div>
+                                                        </div>
+        </div>
+     
+		            </div>
+		        </div>
+		    </div>
+        </main>
+        
+		<footer class="ftr">
+			
+			
+
+
+    
+      <div>
+
+<div class="ftr__lvl1">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="ftr__social"><a aria-label="UVic Instagram" class="btn--social" href="https://www.instagram.com/universityofvictoria/"> <i class="fa-brands fa-instagram">&#8203;</i> <span class="sr-only">UVic Instagram</span> </a> <a aria-label="UVic Facebook" class="btn--social" href="https://www.facebook.com/universityofvictoria"> <i class="fa-brands fa-facebook-square">&#8203;</i> <span class="sr-only">UVic Facebook</span> </a> <a aria-label="UVic Twitter footer link" class="btn--social" href="https://twitter.com/uvic"> <i class="fa-brands fa-square-x-twitter">&#8203;</i> <span class="sr-only">UVic Twitter</span> </a> <a aria-label="UVic Linkedin" class="btn--social" href="https://www.linkedin.com/school/university-of-victoria"> <i class="fa-brands fa-linkedin">&#8203;</i> <span class="sr-only">UVic Linkedin</span> </a> <a aria-label="UVic YouTube" class="btn--social" href="https://www.youtube.com/uvic"> <i class="fa-brands fa-youtube">&#8203;</i> <span class="sr-only">UVic YouTube</span> </a> <a aria-label="View all UVic social media" class="ftr__social__all" href="/info/social-media/index.php">View all UVic social media</a></div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl2">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-4">
+<div class="footer-header">Quicklinks</div>
+<div class="row">
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="About UVic footer link" href="/about-uvic/about-the-university/index.php">About UVic</a></li>
+<li><a aria-label="Admissions footer link" href="/admissions/uvic-admissions/index.php">Admissions</a></li>
+<li><a aria-label="Research footer link" href="https://www.uvic.ca/research-innovation/research-at-uvic/index.php">Research</a></li>
+<li><a aria-label="News &amp; Media footer link" href="https://news.uvic.ca/">News &amp; media</a></li>
+</ul>
+</div>
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="Events footer link" href="https://events.uvic.ca/">Events</a></li>
+<li><a aria-label="Careers footer link" href="/faculty-staff/careers/why-apply-to-uvic/index.php">Careers</a></li>
+<li><a aria-label="Donate footer link" href="https://www.uvic.ca/support-uvic/index.php">Donate</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col col-lg-4">
+<div class="footer-header">Info for...</div>
+<div class="row">
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="Students footer link" href="/students/index.php">Students</a></li>
+<li><a aria-label="Faculty &amp; staff footer link" href="/faculty-staff/index.php">Faculty &amp; staff</a></li>
+<li><a aria-label="Alumni footer link" href="https://www.uvic.ca/alumni/">Alumni</a></li>
+<li><a aria-label="Indigenous footer link" href="/info-for/indigenous/index.php">Indigenous</a></li>
+</ul>
+</div>
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="International footer link" href="/info-for/international/index.php">International</a></li>
+<li><a aria-label="2SLGBTQIA+ footer link" href="/info-for/lgbtq/index.php">2SLGBTQIA+</a></li>
+<li><a aria-label="Business &amp; industry footer link" href="/info-for/business-and-industry/index.php">Business &amp; industry</a></li>
+<li><a aria-label="Community footer link" href="/info-for/community/index.php">Community</a></li>
+</ul>
+</div>
+</div>
+</div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl3">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-4">
+<div class="row">
+<div class="col-xl"><a href="/index.php"><img alt="The University of Victoria crest logo." class="ftr__logo" src="https://www.uvic.ca/assets/core-4-0/img/shield-horz-white.svg"/></a></div>
+<div class="col-xl">
+<p>University of Victoria <br/> 3800 Finnerty Road <br/> Victoria BC&#160;&#160;V8P 5C2 <br/> Canada</p>
+</div>
+</div>
+</div>
+<div class="col col-lg-1">
+<div class="row">
+<div class="col-xl">
+<ul class="list-unstyled">
+<li><a aria-label="UVic Maps footer link" class="ftr__iconlink" href="/search/maps-buildings/index.php"><i aria-hidden="true" class="fa-solid fa-map-marker-alt">&#8203;</i>Maps</a></li>
+<li><a aria-label="UVic Hours footer link" class="ftr__iconlink" href="/about-uvic/contact-us/campus-hours/index.php"><i aria-hidden="true" class="fa-solid fa-clock">&#8203;</i>Hours</a></li>
+<li><a aria-label="Contacts footer link" class="ftr__iconlink" href="/about-uvic/contact-us/index.php"><i aria-hidden="true" class="fa-solid fa-user">&#8203;</i>Contacts</a></li>
+</ul>
+</div>
+</div>
+</div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl4">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-8">
+<ul class="list-inline">
+<li class="list-inline-item"><a aria-label="Terms of use footer link" href="/info/terms-of-use/index.php">Terms of use</a></li>
+<li class="list-inline-item"><a aria-label="Accessibility footer link" href="/info/accessibility/index.php">Accessibility</a></li>
+<li class="list-inline-item"><a aria-label="Emergency contacts footer link" href="/info/emergency-contacts/index.php">Emergency contacts</a></li>
+</ul>
+<ul class="list-inline">
+<li class="list-inline-item"><a aria-label="&#169; University of Victoria copyright footer link" href="/info/copyright-information/index.php">&#169; University of Victoria</a></li>
+<li class="list-inline-item"><a aria-label="Website feedback footer link" href="/info/website-feedback/index.php">Website feedback</a></li>
+</ul>
+</div>
+                    </div>
+    </div>
+</div>
+<a class="btn btn--ico btn--top" href="#uv-header"><i aria-hidden="true" class="fa-solid fa-arrow-up"></i> <span class="sr-only">Back to top of page</span></a>
+</div>    
+
+		</footer>
+		
+
+<!-- JS Pack -->
+        
+        
+    <script src="/assets/core-4-1/js/scripts.1753207014.js" type="text/javascript"></script>    
+    
+    <!-- Loop through and grab all dependencies flags -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+        
+    <script src="/assets/core-4-1/js/animation/aos.1748380476.js" type="text/javascript"></script>    
+    
+    
+<!-- Font Awesome -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/6353bd3065.js"></script>
+                        
+            
+                                                        
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+                        
+
+	</body>
+</html>
+
+--------Website Information--------
+
+Redirect Website Numer: 1
+Website: https://www.uvic.ca/
+Website supports http2: False 
+Is password protected: False
+Cookie Index: 0  --Cookie Name: PHPSESSID  --Cookie Experation: None  --Domain: None
+Cookie Index: 1  --Cookie Name: uvic_bar  --Cookie Experation: Thu, 01 Jan 1970 00:00:01 GMT  --Domain: .uvic.ca
+Cookie Index: 2  --Cookie Name: www_def  --Cookie Experation: None  --Domain: None
+Cookie Index: 3  --Cookie Name: TS018b3cbd  --Cookie Experation: None  --Domain: None
+Cookie Index: 4  --Cookie Name: TS0165a077  --Cookie Experation: None  --Domain: .uvic.ca
+

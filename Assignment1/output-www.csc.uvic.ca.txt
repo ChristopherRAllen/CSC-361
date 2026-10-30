@@ -1,0 +1,963 @@
+---Request begin---
+
+GET http://www.csc.uvic.ca/ HTTP/1.1
+Host: www.csc.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.0 302 Moved Temporarily
+
+Location: https://www.csc.uvic.ca/
+
+Server: BigIP
+
+Connection: close
+
+Content-Length: 0
+
+--------Website Information--------
+
+Website: http://www.csc.uvic.ca/
+Website supports http2: False 
+Is password protected: False
+
+---Request begin---
+
+GET https://www.csc.uvic.ca/ HTTP/1.1
+Host: www.csc.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.0 302 Moved Temporarily
+
+Location: https://www.uvic.ca/engineering/computerscience/index.php
+
+Server: BigIP
+
+Connection: close
+
+Content-Length: 0
+
+--------Website Information--------
+
+Redirect Website Numer: 1
+Website: https://www.csc.uvic.ca/
+Website supports http2: False 
+Is password protected: False
+
+---Request begin---
+
+GET https://www.uvic.ca/engineering/computerscience/index.php HTTP/1.1
+Host: www.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.1 301 Moved Permanently
+
+Date: Mon, 28 Sep 2026 20:22:12 GMT
+
+X-XSS-Protection: 1; mode=block
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: strict-origin-when-cross-origin
+
+Location: https://www.uvic.ca/ecs/computerscience/index.php
+
+Content-Length: 256
+
+Connection: close
+
+Content-Type: text/html; charset=iso-8859-1
+
+Set-Cookie: www_def=!TIB+LsAzUsNY7345m1fwS7ujMeDydi5SbgixDkWPBjZJ3DC3xZLh+rJamtJiXXIeH+309Gz676bRnlM=; path=/; Httponly; Secure
+
+Strict-Transport-Security: max-age=16070400
+
+Set-Cookie: TS018b3cbd=0183e07534c504fe9b7944c985596db575e02c45b74d33539951bbf05cfda6e0b1e3af528a1036c7604e4123cd6b9f51734e2f75c5; Path=/; Secure; HttpOnly
+
+----------Body----------
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="http://www.uvic.ca/ecs/computerscience/index.php">here</a>.</p>
+</body></html>
+
+
+--------Website Information--------
+
+Redirect Website Numer: 2
+Website: https://www.uvic.ca/engineering/computerscience/index.php
+Website supports http2: False 
+Is password protected: False
+Cookie Index: 0  --Cookie Name: www_def  --Cookie Experation: None  --Domain: None
+Cookie Index: 1  --Cookie Name: TS018b3cbd  --Cookie Experation: None  --Domain: None
+
+---Request begin---
+
+GET https://www.uvic.ca/ecs/computerscience/index.php HTTP/1.1
+Host: www.uvic.ca
+Connection: Close
+
+---Request end---
+HTTP request sent, awaiting response...
+
+
+----------Header----------
+
+HTTP/1.1 200 OK
+
+Date: Mon, 28 Sep 2026 20:22:12 GMT
+
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+
+Cache-Control: no-store, no-cache, must-revalidate
+
+Pragma: no-cache
+
+Set-Cookie: PHPSESSID=1q7tu0hcnfqm5r63clc8vm382d; path=/; secure; HttpOnly; SameSite=Lax
+
+Set-Cookie: uvic_bar=deleted; expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0; path=/; domain=.uvic.ca; secure; HttpOnly
+
+X-XSS-Protection: 1; mode=block
+
+X-Content-Type-Options: nosniff
+
+Referrer-Policy: strict-origin-when-cross-origin
+
+Vary: Accept-Encoding,User-Agent
+
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+
+Connection: close
+
+Content-Type: text/html; charset=UTF-8
+
+Set-Cookie: www_def=!CwkDZFfKp5Ojp1w5m1fwS7ujMeDydiFtmcx1OXFiz0Oo9PlsgIeQRIBUk2hiwgmALQAwK+eNJCPoBro=; path=/; Httponly; Secure
+
+Strict-Transport-Security: max-age=16070400
+
+Set-Cookie: TS018b3cbd=0183e0753449a2a3c7fe19c1a88622a2493dc2260966c7f1b27a11dbfde6a7de82fe8881e07bfcddf6f43740709d7718ddcf7c83f3; Path=/; Secure; HttpOnly
+
+Set-Cookie: TS0165a077=0183e0753449a2a3c7fe19c1a88622a2493dc2260966c7f1b27a11dbfde6a7de82fe8881e07bfcddf6f43740709d7718ddcf7c83f3; path=/; domain=.uvic.ca; HttpOnly; Secure
+
+----------Body----------
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+	    
+
+ 
+
+
+		<meta charset="utf-8"/>
+		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+		<title>Home - Computer Science - University of Victoria</title>
+		                                         <meta content="1788389443454" name="Last-Modified"/>
+        <meta content="1545257999056382" property="fb:app_id"/>
+        <meta content="website" property="og:type"/>
+        <meta content="@uvic" name="twitter:site"/>
+        <meta content="UVic.ca" property="og:site_name"/>
+        <meta content="Home - Computer Science - University of Victoria" name="twitter:title"/>
+        <meta content="Home - Computer Science - University of Victoria" property="og:title"/>
+        <meta content="Learn about the Dept. of Computer Science at the University of Victoria." name="description" property="og:description"/>
+        <meta content="https://www.uvic.ca/assets/core-4-0/img/uvic-social-media-default.gif" name="twitter:image"/>
+        <meta content="https://www.uvic.ca/assets/core-4-0/img/uvic-social-media-default.gif" property="og:image"/>
+        <meta content="https://www.uvic.ca/ecs/computerscience/index.php" property="og:url"/>
+        <link href="https://www.uvic.ca/ecs/computerscience/index.php" rel="canonical"/>
+		<meta content="96e57b238e687135334a893979ed1f1e" name="id"/>
+		
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+<link href="/assets/core-4-1/img/favicon-32.png" rel="icon"/>
+<!-- Stylesheet -->
+        
+        
+    <link href="/assets/core-4-1/css/core.1781900481.css" rel="stylesheet"/>    
+    
+            
+        
+    <link href="/assets/core-4-1/css/animation/aos.1748380475.css" rel="stylesheet"/>    
+    
+    
+            
+        
+    <link href="/ecs/computerscience/_assets/css/site-styles.1790616879.css" rel="stylesheet"/>    
+    
+                                    
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+            
+                                    
+                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+            
+                                            
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M5FFDZHQ');</script>
+    
+    
+
+
+
+<!-- site: Computer Science 4.1 - last modified: September 03 2026 09:16:29. -->
+
+		
+
+
+
+
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@graph": [
+                                                                                                                                                                {
+            "@type": "WebPage",
+            "@id": "https://www.uvic.ca/ecs/computerscience/index.php#webpage",
+            "url": "https://www.uvic.ca/ecs/computerscience/index.php",
+            "name": "Department of Computer Science",
+            "description": "Learn about the Dept. of Computer Science at the University of Victoria.",
+            "isPartOf": { "@id": "https://www.uvic.ca/index.php#website" },
+            "inLanguage": "en-CA",
+            "dateModified": "2026-09-02"
+        }
+    ]
+    }
+</script>
+
+	</head>
+	<body class="uv-landing">
+		<header id="uv-header">
+	                                        
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+            
+                                    
+                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+            
+                                        
+
+<!-- Google Tag Manager (noscript) -->
+    <noscript><iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-M5FFDZHQ" style="display:none;visibility:hidden" title="Google Tag Manager" width="0"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        
+
+    		
+
+  <div>
+<section aria-describedby="cookies-description" aria-label="Cookie Notice" class="uv-banner collapse" id="cookies-banner">
+    <div class="container">
+	    <p id="cookies-description">This website stores cookies on your computer. These cookies are used to collect information about how you interact with our website and allow us to remember your browser. We use this information to improve and customize your browsing experience, for analytics and metrics about our visitors both on this website and other media, and for marketing purposes. By using this website, you accept and agree to be bound by UVic�s <a href="/info/terms-of-use/index.php">Terms of Use</a> for�<a class="icoa" href="/info/terms-of-use/web-and-social-media-privacy/index.php">web and social media privacy</a>.��If you do not agree to the above, you can configure your browser�s setting to �do not track.�</p>
+<div class="btn-row"><button aria-controls="cookies-banner" aria-expanded="false" aria-label="Close cookie banner" class="btn btn-outline-primary" data-bs-target="#cookies-banner" data-bs-toggle="collapse" id="cookies-btn" type="button">Close</button></div>
+	</div>
+</section>
+
+</div>
+
+		    <a class="sr-only sr-only-focusable visually-hidden-focusable" href="#uv-main">Skip to main content</a>
+			
+
+
+  <div>
+
+<div class="srch collapse" id="searchMain">
+    <div class="container">
+        <div class="row srch__row">
+                                                                                                                                                
+                
+                                
+                <form class="srch__form col-12 col-lg" action="/ecs/computerscience/search.php" method="get">
+                    <div class="form-group">                
+                        <label class="srch__lbl" for="searchUVic">Search</label>
+                        <input type="search" id="searchUVic" name="q" class="form-control srch__field js-autocomplete" placeholder="What are you looking for?" data-source="//www.uvic.ca/search/a-z-list/a-z-data.json" />
+                        <label for="searchp" class="d-none">Start page</label>
+                        <input type="hidden" id="searchp" name="p" value="1">
+                        <button type="submit" class="btn btn-light srch__btn"><i class="fa-solid fa-search"></i> <span class="sr-only">Search</span></button>
+                    </div>            
+                </form>
+                
+            
+            <div class="srch__lnks col col-lg-auto">
+                                    <a aria-label="People quicklink" class="srch__lnk" href="https://directory.uvic.ca/people">People</a>
+                                                        <a aria-label="Departments quicklink" class="srch__lnk" href="https://directory.uvic.ca/depts/">Departments</a>
+                                                        <a aria-label="Maps quicklink" class="srch__lnk" href="/search/maps/index.php">Maps</a>
+                                                        <a aria-label="Buildings quicklink" class="srch__lnk" href="/search/buildings/index.php">Buildings</a>
+                                                        <a aria-label="Rooms quicklink" class="srch__lnk" href="/search/rooms/index.php">Rooms</a>
+                                                        <a aria-label="A-Z quicklink" class="srch__lnk" href="/search/a-z-list/index.php">A-Z</a>
+                                                </div>
+        </div>
+    </div>
+</div>
+
+  
+<div class="glbl">
+
+
+    <div class="container">
+        <div class="glbl__row row justify-content-between">
+            <div class="col-auto">
+                <a class="glbl__home d-flex align-items-center" href="/index.php">
+                    <img alt="University of Victoria" class="glbl__logo" src="https://www.uvic.ca/assets/core-4-0/img/uvic-wordmark-colour.svg"/>
+                    <span class="glbl__name">University<br/>of Victoria</span>
+                </a>                
+            </div>
+            <div class="col-auto d-flex align-items-center">
+                <div class="glbl__lnks">
+                                            <a aria-label="Apply quicklink" class="glbl__lnk" href="/admissions/uvic-admissions/index.php">Apply</a>
+                                                                    <a aria-label="Library quicklink" class="glbl__lnk" href="https://www.uvic.ca/library/">Library</a>
+                                                            </div>
+                <a aria-controls="searchMain" aria-expanded="false" aria-label="Search button" class="btn btn-sm btn-outline-primary glbl__btn icoa icoa--up" data-bs-target="#searchMain" data-bs-toggle="collapse" data-target="#searchMain" data-toggle="collapse" href="/search/index.php" id="search-btn" role="button"><i class="fa-solid fa-search"></i> <span class="sr-only">Search</span></a>
+                 
+                <a href="/cas/login?service=https%3A%2F%2Fwww.uvic.ca%2Ftools%2Findex.php" aria-label="Sign in to UVic button" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--unauth"><i class="fa-solid fa-key"></i> Sign in</a>                                  
+                <a aria-label="Go to UVic online tools" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--auth" href="/tools/index.php"><i class="fa-solid fa-wrench"></i> <span class="glbl__btn__txt">Online tools</span></a>
+                 
+                <a href="/cas/logout?url=https%3A%2F%2Fwww.uvic.ca%2Findex.php" aria-label="Sign out of UVic button" class="btn btn-sm btn-outline-primary glbl__btn glbl__btn--auth"><i class="fa-solid fa-times"></i> <span class="glbl__btn__txt">Sign out</span></a>                
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+			<!-- header -->
+    <div class="uv-hdr">
+    	<div class="uv-hdr__container container">
+    	        		    <button aria-controls="uvic-nav uvic-nav-audience" aria-expanded="false" class="btn uv-nav__tgl btn--ico" data-bs-target=".navbar-collapse" data-bs-toggle="collapse"><i class="fa-solid fa-bars"></i> <span class="visually-hidden">Show menu</span></button>
+    	        	                    		<div class="uv-hdr__name"><a aria-label="Computer Science home link" href="index.php">Computer Science</a></div>
+                	</div>
+    </div>
+
+			            <!-- Navigation -->
+<nav aria-label="primary navigation" class="navbar navbar-expand-lg uv-nav uv-nav--topic" id="uvic-nav">
+    <div class="container uv-nav__container">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                                                                                                                                                                                                                                    <li class="nav-item">
+                                <a class="nav-link uv-nav__item active" href="index.php">Home </a>
+                            </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Programs menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Programs</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Computer Science (BSc) page" class="dropdown-item" href="programs/bsc-major/index.php">Computer Science (BSc)</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Combined major programs page" class="dropdown-item" href="programs/combined-majors/index.php">Combined major programs</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Bachelor of Software Engineering (BSEng) page" class="dropdown-item" href="programs/bseng/index.php">Bachelor of Software Engineering (BSEng)</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Computer Science (MSc) page" class="dropdown-item" href="programs/msc/index.php">Computer Science (MSc)</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Computer Science (PhD) page" class="dropdown-item" href="programs/phd/index.php">Computer Science (PhD)</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Applied Data Science (MEng) page" class="dropdown-item icoa icoa--out" href="https://www.uvic.ca/ecs/programs/professional-programs/meng-mads/index.php">Applied Data Science (MEng)</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-label="Open Students menu" class="nav-link uv-nav__item dropdown-toggle icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button">Students</a>
+                            <div class="dropdown-menu uv-nav__dropdown">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a aria-label="Go to Undergraduate courses page" class="dropdown-item" href="students/undergraduate-courses/index.php">Undergraduate courses</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Graduate courses  page" class="dropdown-item" href="students/graduate-courses/index.php">Graduate courses </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to  New students page" class="dropdown-item" href="students/new-students/index.php"> New students</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Academic advising page" class="dropdown-item" href="students/academic-advising/index.php">Academic advising</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Student clubs page" class="dropdown-item" href="students/student-groups/index.php">Student clubs</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Events  page" class="dropdown-item" href="students/events/index.php">Events </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Diversity &amp; inclusion supports page" class="dropdown-item" href="students/diversity-inclusion/index.php">Diversity &amp; inclusion supports</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a aria-label="Go to Resources page" class="dropdown-item" href="students/resources/index.php">Resources</a>
+                                                                                                                                    </div>
+                        </li>
+                                                                                                                                                                                                                                                                            <li class="nav-item">
+                                <a class="nav-link uv-nav__item" href="research-partnerships/index.php">Research &amp; partnerships </a>
+                            </li>
+                                                                                                                                                                                                                                                                                                    <li class="nav-item">
+                                <a class="nav-link uv-nav__item" href="faculty-staff/index.php">Faculty &amp; staff </a>
+                            </li>
+                                                                                            </ul>
+        </div>
+    </div>
+</nav>
+
+			            <!-- Navigation -->
+<nav aria-label="audience navigation" class="navbar navbar-expand-lg uv-nav uv-nav--audience" id="uvic-nav-audience">
+    <div class="container uv-nav__container">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+	            <li class="nav-item dropdown">
+                                                                                                                                                                                                                                            <a aria-expanded="false" aria-haspopup="true" aria-label="Open Info for menu" class="nav-link uv-nav__item dropdown-toggle d-lg-none icoa icoa--down" data-bs-toggle="dropdown" href="#" role="button"><i class="fa-solid fa-user"></i> Info for...</a>
+                    <div class="dropdown-menu uv-nav__dropdown uv-nav--audience__dropdown">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="info-for-label d-none d-lg-block"> Info for... </span>
+        	                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Prospective students page" class="dropdown-item" href="info-for/prospective-students/index.php">Prospective students</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Teaching &amp; researching assistants page" class="dropdown-item" href="info-for/teaching-research-assistants/index.php">Teaching &amp; researching assistants</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Alumni page" class="dropdown-item" href="info-for/alumni/index.php">Alumni</a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <a aria-label="Go to Community page" class="dropdown-item" href="info-for/community/index.php">Community</a>
+                                                                                                                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+		</header>
+		
+		<main class="uv-main uv-main--landing" id="uv-main">
+    		     
+            <div class="container">
+                <div class="row uv-main__row">
+                    <div class="uv-content">
+						
+    		            
+
+
+            
+
+
+
+
+ 
+
+
+
+        
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+                                                                                                                                                         <div class="row uv-sect bg--dark-blue text--white" id="firstSection">
+            <div class="col-12">
+                                    <h1 id="ipn-department-of-computer-science">Department of Computer Science</h1>
+                                                                                                                                                                                                             <p>The Department of Computer Science is recognized for the strength of its research and the flexibility of its programs. Our faculty work at the leading edge of the field across a wide range of specializations, while our undergraduate and graduate programs give students the depth and breadth to launch careers across a rapidly evolving field.</p>
+                                                        </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                    <div class="icon-bar row row-cols-8 justify-content-md-center">
+                                                                                            
+                <div class="col">
+                                            <a href="info-for/prospective-students/index.php"> <i aria-hidden="true" class="fa-regular fa-user"> </i><div class="icon-bar__icon-label">Prospective students</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                            
+                <div class="col">
+                                            <a href="students/undergraduate-courses/index.php"> <i aria-hidden="true" class="fa-regular fa-person-chalkboard"> </i><div class="icon-bar__icon-label">Undergrad courses</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                            
+                <div class="col">
+                                            <a href="https://www.uvic.ca/calendar/future/grad/#/experiences/BJC4g9vQN?bc=true&amp;bcCurrent=Computer%20Science%3A%20General%20Information&amp;bcGroup=Department%20of%20Computer%20Science&amp;bcItemType=experiences"><i aria-hidden="true" class="fa-light fa-table-list"> </i><div class="icon-bar__icon-label">Academic calendar</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                            
+                <div class="col">
+                                            <a href="students/academic-advising/index.php"> <i aria-hidden="true" class="fa-solid fa-messages-question"> </i><div class="icon-bar__icon-label">Advising</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                                                                                            
+                <div class="col">
+                                            <a href="faculty-staff/index.php"> <i aria-hidden="true" class="fa-regular fa-users-rectangle"> </i><div class="icon-bar__icon-label">Contacts</div></a>
+                                    </div>
+            
+            
+                                                                                                
+                                
+                    </div>
+    
+                                                                                                        </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                                            
+    <div class="card card--overlay bg--blue text--white card--overlay--none">
+            <div class="card--overlay__cover">
+                                                                            <picture>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <img alt="Students around a whiteboard." class="card--overlay__img" height="1450" loading="lazy" src="_assets/images/landing-heros/csc-jumbotron.jpg" width="3600"/>
+                                    </picture>
+                    </div>
+        
+                
+            </div>
+    
+                                                                                                            </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                                        
+         <div class="card card--promo bg--blue text--white card--promo--middle-right">
+        <div class="row">
+                
+    <div class="col-md-6 card--promo__col--img ">
+        <div class="card--promo__img-wrap">
+                                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="_assets/images/cards/promo/ecss-resized-380x213.webp, _assets/images/cards/promo/ecss-resized-760x427.webp 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 576px)" srcset="_assets/images/cards/promo/ecss-resized-576x324.webp, _assets/images/cards/promo/ecss-resized-1152x648.webp 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="_assets/images/cards/promo/ecss-resized-720x405.webp, _assets/images/cards/promo/ecss-resized.webp 2x"/>
+                <img alt="Group photo of the ECSS" class="card-img" height="405" loading="lazy" src="_assets/images/cards/promo/ecss-resized-720x405.webp" width="720"/>
+                                    </picture>
+                        </div>
+    </div>
+    
+                        <div class="col-md-6 card--promo__col--txt ">
+                <div class="card-body">
+                                                <h2 class="card-title">Student clubs</h2>
+                                                    <div class="card-text">
+                                             <p>Whether you want to help bring computer science to youth in the community, team up to build a new game or compete in the next hackathon, there's a club for you!</p>
+                                            
+    <div class="btn-row">
+                                                                                                          <a class="btn btn-outline-primary" href="students/student-groups/index.php">Explore student clubs</a>
+        
+                </div>
+                                </div>
+                    </div>
+    </div>
+            </div>
+    </div>
+         
+                                                                                                            </div>
+        </div>
+                                                                                                                                                              <div class="row uv-sect bg--linear-top">
+            <div class="col col-lg-8">
+                                                    <h2 id="ipn-announcements">Announcements</h2>
+                                                                                                                                                                                            
+                    
+                                    <div class="uv-announcement feed feed--story">
+                        
+                                                                            
+                        
+                                                                <div class="card  feed__item--story">
+                                <div class="row g-0">
+                                                                            <div class="col-md-12">
+                                                                        <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a class="stretched-link" href="faculty-staff/all-announcements/welcome-to-csc-2026.php">
+                                                Welcome Message from the Chair�2026
+                                                                                            </a>
+                                        </h3>
+                                        
+                <p>September 3, 2026</p>
+        
+                                            <p class="card-text">Welcome to the Department of Computer Science for the Fall 2026 academic year. For first-year students, you are embarking on a new phase of your life, which we hope will be filled with discovery....</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    
+                                                                                
+                                                                            
+                        
+                                                                <div class="card  feed__item--story">
+                                <div class="row g-0">
+                                                                            <div class="col-md-12">
+                                                                        <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a class="stretched-link" href="faculty-staff/all-announcements/drdc-satellite.php">
+                                                UVic�s Centre for Aerospace Research Receives $2.8M Award to Build Satellite to Advance Canada�s Communication Capability in the Arctic
+                                                                                            </a>
+                                        </h3>
+                                        
+            
+                                            <p class="card-text">We&#8217;re thrilled to announce that our&#160;University of Victoria Centre for Aerospace Research (CfAR)&#160;has secured a $2.82 million contract from&#160;Defence Research and...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    
+                                                                                
+                                                                            
+                        
+                                                                <div class="card  feed__item--story">
+                                <div class="row g-0">
+                                                                            <div class="col-md-4">
+                                            <a href="faculty-staff/all-announcements/welcome-alex-kitson.php">                                
+                                                                                                        <picture>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <img alt="Alex Kiston at the beach." class="card-img feed__img" height="299" loading="lazy" src="_assets/images/content-main/alex-kiston-01.png" width="532"/>
+                                    </picture>
+                                                    </a>
+                                        </div>
+                                        <div class="col-md-8">
+                                                                        <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a class="stretched-link" href="faculty-staff/all-announcements/welcome-alex-kitson.php">
+                                                Welcome Dr. Alex Kitson
+                                                                                            </a>
+                                        </h3>
+                                        
+            
+                                            <p class="card-text">Interview with Dr. Yun Lu
+I chat with Dr. Alex Kitson, one of our newest faculty members. We discuss how she discovered computer science,&#160;her research in human-computer interaction, and...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    
+                                                                                
+                                                                            
+                        
+                                                                <div class="card  feed__item--story">
+                                <div class="row g-0">
+                                                                            <div class="col-md-4">
+                                            <a href="faculty-staff/all-announcements/welcome-ashery-mbilinyi.php">                                
+                                                                                                        <picture>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <img alt="Ashery in his office at his desk." class="card-img feed__img" height="299" loading="lazy" src="_assets/images/content-main/ashery-office.png" width="532"/>
+                                    </picture>
+                                                    </a>
+                                        </div>
+                                        <div class="col-md-8">
+                                                                        <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a class="stretched-link" href="faculty-staff/all-announcements/welcome-ashery-mbilinyi.php">
+                                                Welcome Dr. Ashery Mbilinyi! 
+                                                                                            </a>
+                                        </h3>
+                                        
+            
+                                            <p class="card-text">Interview with Dr. Yun Lu
+I had the pleasure of chatting with Dr.&#160;Ashery Mbilinyi, one of the newest faculty members joining UVic&#8217;s Computer Science department. In this...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    
+                                                                                
+                                                                            
+                        
+                                                                <div class="card  feed__item--story">
+                                <div class="row g-0">
+                                                                            <div class="col-md-4">
+                                            <a href="faculty-staff/all-announcements/welcome-jp-champati.php">                                
+                                                                                                        <picture>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <img alt="JP Champati sitting in his office in front of a computer." class="card-img feed__img" height="299" loading="lazy" src="_assets/images/content-main/jp-champati-office.png" width="532"/>
+                                    </picture>
+                                                    </a>
+                                        </div>
+                                        <div class="col-md-8">
+                                                                        <div class="card-body">
+                                        <h3 class="card-title">
+                                            <a class="stretched-link" href="faculty-staff/all-announcements/welcome-jp-champati.php">
+                                                Welcome Dr. Jaya Prakash (JP) Champati!
+                                                                                            </a>
+                                        </h3>
+                                        
+            
+                                            <p class="card-text">Interview with Dr. Yun Lu
+I had a wonderful interview with Dr. Jaya Prakash (JP) Champati, one of our newest faculty members. In this interview, I learn about his experience as a research faculty...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    
+                                                                        </div>   
+                                                                                                                                                                    
+    <div class="btn-row">
+                                                                                                          <a class="btn btn-link" href="faculty-staff/all-announcements/index.php">More announcements</a>
+        
+                </div>
+                                        </div>
+        </div>
+                                                                                                                                                              <div class="row uv-sect bg--linear-top">
+            <div class="col col-lg-8">
+                                                    <h2 id="ipn-news">News</h2>
+                                                                                                                                                                                            
+                
+    
+    <div class="news-wrapper feed feed--story" data-uv-display-type="Story list" data-uv-keywords="computer-science" data-uv-rows="3"></div>
+
+    <p><a class="icoa icoa--out" href="https://news.uvic.ca/keywords/computer-science/">View more stories</a></p>
+    
+                                                                                                            </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--dark-blue text--white">
+            <div class="col-12">
+                                                                                                                                                                                                            <div class="row justify-content-center">
+        <div class="social-bar">
+                            <div class="social-bar__title h2 font-weight-bold">Follow Computer Science on social</div>
+                        <div>
+                                                    <a aria-label="Computer Science 4.1 Facebook" class="btn--social" href="https://facebook.com/UVicComputerScience"> 
+                        <i aria-hidden="true" class="fa-brands fa-square-facebook"></i> <span class="visually-hidden">UVic Facebook</span> 
+                    </a> 
+                                                                                                            </div>
+        </div>
+    </div>
+                                                                                                            </div>
+        </div>
+                                                                                                                                                              <div class="row uv-sect bg--yellow text--black">
+            <div class="col col-lg-8">
+                                                    <h2 id="ipn-support-us">Support us</h2>
+                                                                                                                                                                         <p>Make an impact by supporting student learning.</p>
+                                                                                                                
+    <div class="btn-row">
+                                                                                                                  <a class="btn btn-primary icoa icoa--out" href="https://extrweb.uvic.ca/donate/greatest-need">Donate now</a>
+        
+                </div>
+                                        </div>
+        </div>
+                                                                                                                                                          <div class="row uv-sect bg--linear-top">
+            <div class="col-12">
+                                                                                                                                                                                                                                                
+    <div class="card card--overlay bg--green text--white card--overlay--none card--overlay--skinny">
+            <div class="card--overlay__cover">
+                                                                            <picture>
+                                                                                                                                                                            <source media="(max-width: 380px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-380x153.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-768x309.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 576px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-576x232.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1200x483.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 768px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-768x309.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1536x618.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 992px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-992x399.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1984x799.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1200px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1200x483.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-2400x966.jpg 2x"/>
+                                                                                                                                                                                        <source media="(max-width: 1450px)" srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1536x618.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-2900x1168.jpg 2x"/>
+                                                                                                                                                                                                                                                    <source srcset="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1800x725.jpg, https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450.jpg 2x"/>
+                <img alt="close up of cedar branches" class="card--overlay__img" height="1450" loading="lazy" src="https://www.uvic.ca/_assets/images/cards/overlay/territory-3600-1450-1800x725.jpg" width="3600"/>
+                                    </picture>
+                    </div>
+        
+                        <div class="card-body card--overlay__body">
+                                <h2 class="card-title" id="ipn-territory-acknowledgement">Territory acknowledgement</h2>
+                            <div class="card-text">
+                                             <p>We acknowledge and respect the L&#601;k&#787;&#695;&#601;&#331;&#601;n (Songhees and X&#695;seps&#601;m/Esquimalt) Peoples on whose territory the university stands, and the L&#601;k&#787;&#695;&#601;&#331;&#601;n and W&#817;S&#193;NE&#262; Peoples whose historical relationships with the land continue to this day.</p>
+                </div>
+                    </div>
+                
+            </div>
+    
+                                                                                                            </div>
+        </div>
+     
+		            </div>
+		        </div>
+		    </div>
+        </main>
+        
+		<footer class="ftr">
+			
+			
+
+
+    
+      <div>
+
+<div class="ftr__lvl1">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="ftr__social"><a aria-label="UVic Instagram" class="btn--social" href="https://www.instagram.com/universityofvictoria/"> <i class="fa-brands fa-instagram">&#8203;</i> <span class="sr-only">UVic Instagram</span> </a> <a aria-label="UVic Facebook" class="btn--social" href="https://www.facebook.com/universityofvictoria"> <i class="fa-brands fa-facebook-square">&#8203;</i> <span class="sr-only">UVic Facebook</span> </a> <a aria-label="UVic Twitter footer link" class="btn--social" href="https://twitter.com/uvic"> <i class="fa-brands fa-square-x-twitter">&#8203;</i> <span class="sr-only">UVic Twitter</span> </a> <a aria-label="UVic Linkedin" class="btn--social" href="https://www.linkedin.com/school/university-of-victoria"> <i class="fa-brands fa-linkedin">&#8203;</i> <span class="sr-only">UVic Linkedin</span> </a> <a aria-label="UVic YouTube" class="btn--social" href="https://www.youtube.com/uvic"> <i class="fa-brands fa-youtube">&#8203;</i> <span class="sr-only">UVic YouTube</span> </a> <a aria-label="View all UVic social media" class="ftr__social__all" href="/info/social-media/index.php">View all UVic social media</a></div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl2">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-4">
+<div class="footer-header">Quicklinks</div>
+<div class="row">
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="About UVic footer link" href="/about-uvic/about-the-university/index.php">About UVic</a></li>
+<li><a aria-label="Admissions footer link" href="/admissions/uvic-admissions/index.php">Admissions</a></li>
+<li><a aria-label="Research footer link" href="https://www.uvic.ca/research-innovation/research-at-uvic/index.php">Research</a></li>
+<li><a aria-label="News &amp; Media footer link" href="https://news.uvic.ca/">News &amp; media</a></li>
+</ul>
+</div>
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="Events footer link" href="https://events.uvic.ca/">Events</a></li>
+<li><a aria-label="Careers footer link" href="/faculty-staff/careers/why-apply-to-uvic/index.php">Careers</a></li>
+<li><a aria-label="Donate footer link" href="https://www.uvic.ca/support-uvic/index.php">Donate</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col col-lg-4">
+<div class="footer-header">Info for...</div>
+<div class="row">
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="Students footer link" href="/students/index.php">Students</a></li>
+<li><a aria-label="Faculty &amp; staff footer link" href="/faculty-staff/index.php">Faculty &amp; staff</a></li>
+<li><a aria-label="Alumni footer link" href="https://www.uvic.ca/alumni/">Alumni</a></li>
+<li><a aria-label="Indigenous footer link" href="/info-for/indigenous/index.php">Indigenous</a></li>
+</ul>
+</div>
+<div class="col-md">
+<ul class="list-unstyled">
+<li><a aria-label="International footer link" href="/info-for/international/index.php">International</a></li>
+<li><a aria-label="2SLGBTQIA+ footer link" href="/info-for/lgbtq/index.php">2SLGBTQIA+</a></li>
+<li><a aria-label="Business &amp; industry footer link" href="/info-for/business-and-industry/index.php">Business &amp; industry</a></li>
+<li><a aria-label="Community footer link" href="/info-for/community/index.php">Community</a></li>
+</ul>
+</div>
+</div>
+</div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl3">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-4">
+<div class="row">
+<div class="col-xl"><a href="/index.php"><img alt="The University of Victoria crest logo." class="ftr__logo" src="https://www.uvic.ca/assets/core-4-0/img/shield-horz-white.svg"/></a></div>
+<div class="col-xl">
+<p>University of Victoria <br/> 3800 Finnerty Road <br/> Victoria BC&#160;&#160;V8P 5C2 <br/> Canada</p>
+</div>
+</div>
+</div>
+<div class="col col-lg-1">
+<div class="row">
+<div class="col-xl">
+<ul class="list-unstyled">
+<li><a aria-label="UVic Maps footer link" class="ftr__iconlink" href="/search/maps-buildings/index.php"><i aria-hidden="true" class="fa-solid fa-map-marker-alt">&#8203;</i>Maps</a></li>
+<li><a aria-label="UVic Hours footer link" class="ftr__iconlink" href="/about-uvic/contact-us/campus-hours/index.php"><i aria-hidden="true" class="fa-solid fa-clock">&#8203;</i>Hours</a></li>
+<li><a aria-label="Contacts footer link" class="ftr__iconlink" href="/about-uvic/contact-us/index.php"><i aria-hidden="true" class="fa-solid fa-user">&#8203;</i>Contacts</a></li>
+</ul>
+</div>
+</div>
+</div>
+                    </div>
+    </div>
+</div>
+<div class="ftr__lvl4">
+    <div class="container">
+        <div class="row justify-content-center">
+                        <div class="col col-lg-8">
+<ul class="list-inline">
+<li class="list-inline-item"><a aria-label="Terms of use footer link" href="/info/terms-of-use/index.php">Terms of use</a></li>
+<li class="list-inline-item"><a aria-label="Accessibility footer link" href="/info/accessibility/index.php">Accessibility</a></li>
+<li class="list-inline-item"><a aria-label="Emergency contacts footer link" href="/info/emergency-contacts/index.php">Emergency contacts</a></li>
+</ul>
+<ul class="list-inline">
+<li class="list-inline-item"><a aria-label="&#169; University of Victoria copyright footer link" href="/info/copyright-information/index.php">&#169; University of Victoria</a></li>
+<li class="list-inline-item"><a aria-label="Website feedback footer link" href="/info/website-feedback/index.php">Website feedback</a></li>
+</ul>
+</div>
+                    </div>
+    </div>
+</div>
+<a class="btn btn--ico btn--top" href="#uv-header"><i aria-hidden="true" class="fa-solid fa-arrow-up"></i> <span class="sr-only">Back to top of page</span></a>
+</div>    
+
+		</footer>
+		
+
+<!-- JS Pack -->
+        
+        
+    <script src="/assets/core-4-1/js/scripts.1753207014.js" type="text/javascript"></script>    
+    
+    <!-- Loop through and grab all dependencies flags -->
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+        
+    <script src="/assets/core-4-1/js/animation/aos.1748380476.js" type="text/javascript"></script>    
+    
+    
+<!-- Font Awesome -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/6353bd3065.js"></script>
+                        
+                                        
+            
+                                                        
+            
+                                                        
+            
+                                                        
+            
+                                    
+                                        
+            
+                                                        
+            
+                                                        
+                    
+                                        
+            
+                                        
+            
+        
+    <script src="/assets/core-4-1/js/news-feed.1749142823.js" type="text/javascript"></script>    
+    
+                
+        
+    <script src="/assets/core-4-1/js/purify.min.1742579994.js" type="text/javascript"></script>    
+    
+    
+	</body>
+</html>
+
+--------Website Information--------
+
+Redirect Website Numer: 3
+Website: https://www.uvic.ca/ecs/computerscience/index.php
+Website supports http2: False 
+Is password protected: False
+Cookie Index: 0  --Cookie Name: PHPSESSID  --Cookie Experation: None  --Domain: None
+Cookie Index: 1  --Cookie Name: uvic_bar  --Cookie Experation: Thu, 01 Jan 1970 00:00:01 GMT  --Domain: .uvic.ca
+Cookie Index: 2  --Cookie Name: www_def  --Cookie Experation: None  --Domain: None
+Cookie Index: 3  --Cookie Name: TS018b3cbd  --Cookie Experation: None  --Domain: None
+Cookie Index: 4  --Cookie Name: TS0165a077  --Cookie Experation: None  --Domain: .uvic.ca
+
