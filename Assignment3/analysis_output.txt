@@ -1,0 +1,44 @@
+The IP address of the source node: 192.168.0.108
+The IP address of ultimate destination node: 4.2.2.2
+The IP addresses of the intermediate destination nodes:
+router 1: 142.104.69.243,
+router 2: 142.104.68.1,
+router 3: 192.168.9.5,
+router 4: 192.168.10.1,
+router 7: 142.104.252.246,
+router 8: 142.104.250.37,
+router 9: 207.23.241.221,
+router 10: 67.69.244.53,
+router 11: 64.230.122.248,
+router 12: 64.230.77.230,
+router 12: 64.230.77.228,
+router 13: 64.230.79.98,
+router 14: 64.230.125.233,
+router 14: 64.230.125.231,
+router 15: 4.71.152.53,
+router 16: 4.69.152.15,
+
+The values in the protocol field of IP headers:
+1: ICMP
+17: UDP
+
+The number of fragments created from the original datagram is: 2
+The offset of the last fragment is: 1480
+
+The avg RTT between 192.168.0.108 and 142.104.69.243 is: 9.442 ms, the s.d. is: 5.597 ms (6 samples)
+The avg RTT between 192.168.0.108 and 142.104.68.1 is: 17.606 ms, the s.d. is: 0.235 ms (6 samples)
+The avg RTT between 192.168.0.108 and 192.168.9.5 is: 18.387 ms, the s.d. is: 0.222 ms (6 samples)
+The avg RTT between 192.168.0.108 and 192.168.10.1 is: 19.872 ms, the s.d. is: 0.001 ms (2 samples)
+The avg RTT between 192.168.0.108 and 142.104.252.246 is: 12.198 ms, the s.d. is: 0.184 ms (4 samples)
+The avg RTT between 192.168.0.108 and 142.104.250.37 is: 15.174 ms, the s.d. is: 0.040 ms (6 samples)
+The avg RTT between 192.168.0.108 and 207.23.241.221 is: 55.424 ms, the s.d. is: 5.057 ms (6 samples)
+The avg RTT between 192.168.0.108 and 67.69.244.53 is: 11.320 ms, the s.d. is: 1.251 ms (6 samples)
+The avg RTT between 192.168.0.108 and 64.230.122.248 is: 13.878 ms, the s.d. is: 0.429 ms (6 samples)
+The avg RTT between 192.168.0.108 and 64.230.77.230 is: 14.961 ms, the s.d. is: 0.004 ms (2 samples)
+The avg RTT between 192.168.0.108 and 64.230.77.228 is: 15.490 ms, the s.d. is: 1.785 ms (4 samples)
+The avg RTT between 192.168.0.108 and 64.230.79.98 is: 15.388 ms, the s.d. is: 1.043 ms (6 samples)
+The avg RTT between 192.168.0.108 and 64.230.125.233 is: 18.733 ms, the s.d. is: 0.002 ms (2 samples)
+The avg RTT between 192.168.0.108 and 64.230.125.231 is: 19.076 ms, the s.d. is: 0.074 ms (4 samples)
+The avg RTT between 192.168.0.108 and 4.71.152.53 is: 127.612 ms, the s.d. is: 0.289 ms (6 samples)
+The avg RTT between 192.168.0.108 and 4.69.152.15 is: 30.659 ms, the s.d. is: 1.054 ms (6 samples)
+The avg RTT between 192.168.0.108 and 4.2.2.2 is: 29.064 ms, the s.d. is: 1.212 ms (8 samples)
